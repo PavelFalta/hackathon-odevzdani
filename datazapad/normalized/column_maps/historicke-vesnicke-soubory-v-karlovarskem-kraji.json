@@ -1,0 +1,86 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "katastrální_území": {
+    "extra_key": "katastrální_území",
+    "canonical": null
+  },
+  "památková_rezervace": {
+    "extra_key": "památková_rezervace",
+    "canonical": null
+  },
+  "památková_zóna": {
+    "extra_key": "památková_zóna",
+    "canonical": null
+  },
+  "fáze_ochrany": {
+    "extra_key": "fáze_ochrany",
+    "canonical": null
+  },
+  "typ_ochrany": {
+    "extra_key": "typ_ochrany",
+    "canonical": null
+  },
+  "upřesnění_typu_ochrany": {
+    "extra_key": "upřesnění_typu_ochrany",
+    "canonical": null
+  },
+  "anotace": {
+    "extra_key": "anotace",
+    "canonical": null
+  },
+  "název_vyššího_územně_samostatného_celku": {
+    "extra_key": "název_vyššího_územně_samostatného_celku",
+    "canonical": null
+  },
+  "kód_vyššího_územně_samostatného_celku": {
+    "extra_key": "kód_vyššího_územně_samostatného_celku",
+    "canonical": null
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

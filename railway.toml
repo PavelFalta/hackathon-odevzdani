@@ -1,0 +1,10 @@
+# Single app service: static UI + /api on one public URL (like docker-compose).
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile.railway"
+watchPatterns = ["backend/**", "frontend/**", "datazapad/**", "deploy/railway/**", "scripts/build-knowledge-base.py"]
+
+[deploy]
+healthcheckPath = "/api/health"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"

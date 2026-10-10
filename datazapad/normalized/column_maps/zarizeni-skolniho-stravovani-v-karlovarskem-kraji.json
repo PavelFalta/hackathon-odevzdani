@@ -1,0 +1,54 @@
+{
+  "objectid": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "nazev": {
+    "extra_key": "nazev",
+    "canonical": "name"
+  },
+  "adresa": {
+    "extra_key": "adresa",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "email": {
+    "extra_key": "email",
+    "canonical": null
+  },
+  "web": {
+    "extra_key": "web",
+    "canonical": "web"
+  },
+  "typ": {
+    "extra_key": "typ",
+    "canonical": null
+  },
+  "kod": {
+    "extra_key": "kod",
+    "canonical": null
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "n": {
+    "extra_key": "n",
+    "canonical": null
+  },
+  "e": {
+    "extra_key": "e",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

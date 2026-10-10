@@ -1,0 +1,54 @@
+{
+  "objectid": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "obvodnioddeleni": {
+    "extra_key": "obvodnioddeleni",
+    "canonical": null
+  },
+  "uzemniodbor": {
+    "extra_key": "uzemniodbor",
+    "canonical": null
+  },
+  "krajskereditelstvi": {
+    "extra_key": "krajskereditelstvi",
+    "canonical": null
+  },
+  "telefon": {
+    "extra_key": "telefon",
+    "canonical": "phone"
+  },
+  "email": {
+    "extra_key": "email",
+    "canonical": null
+  },
+  "ulice": {
+    "extra_key": "ulice",
+    "canonical": null
+  },
+  "cislodomovni": {
+    "extra_key": "cislodomovni",
+    "canonical": null
+  },
+  "cisloorientacni": {
+    "extra_key": "cisloorientacni",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "mesto": {
+    "extra_key": "mesto",
+    "canonical": null
+  },
+  "kodruian": {
+    "extra_key": "kodruian",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

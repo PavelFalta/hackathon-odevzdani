@@ -1,0 +1,50 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Shape": {
+    "extra_key": "shape",
+    "canonical": null
+  },
+  "NAZEV_LAU2": {
+    "extra_key": "nazev_lau2",
+    "canonical": null
+  },
+  "Kod": {
+    "extra_key": "kod",
+    "canonical": null
+  },
+  "SVAZEK": {
+    "extra_key": "svazek",
+    "canonical": null
+  },
+  "KOD_LAU2": {
+    "extra_key": "kod_lau2",
+    "canonical": null
+  },
+  "KOD_LAU1": {
+    "extra_key": "kod_lau1",
+    "canonical": null
+  },
+  "NAZEV_ORP": {
+    "extra_key": "nazev_orp",
+    "canonical": null
+  },
+  "KOD_ORP": {
+    "extra_key": "kod_orp",
+    "canonical": null
+  },
+  "KOD_OPU": {
+    "extra_key": "kod_opu",
+    "canonical": null
+  },
+  "WKT_JTSK": {
+    "extra_key": "wkt_jtsk",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

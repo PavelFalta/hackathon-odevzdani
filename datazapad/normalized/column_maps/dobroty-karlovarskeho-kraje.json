@@ -1,0 +1,150 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "ročník_soutěže": {
+    "extra_key": "ročník_soutěže",
+    "canonical": null
+  },
+  "rok_soutěže": {
+    "extra_key": "rok_soutěže",
+    "canonical": null
+  },
+  "kategorie": {
+    "extra_key": "kategorie",
+    "canonical": null
+  },
+  "umístění_v_kategorii": {
+    "extra_key": "umístění_v_kategorii",
+    "canonical": null
+  },
+  "masné_výrobky": {
+    "extra_key": "masné_výrobky",
+    "canonical": null
+  },
+  "mléčné_výrobky": {
+    "extra_key": "mléčné_výrobky",
+    "canonical": null
+  },
+  "pekařské_a_cukrářské_výrobky": {
+    "extra_key": "pekařské_a_cukrářské_výrobky",
+    "canonical": null
+  },
+  "alkoholické_a_nealkoholické_nápoje": {
+    "extra_key": "alkoholické_a_nealkoholické_nápoje",
+    "canonical": null
+  },
+  "ovoce_zelenina_medy_a_čaje_v_čerstvé_nebo_zpracované_formě": {
+    "extra_key": "ovoce_zelenina_medy_a_čaje_v_čerstvé_nebo_zpracované_formě",
+    "canonical": null
+  },
+  "cukrářské_výrobky": {
+    "extra_key": "cukrářské_výrobky",
+    "canonical": null
+  },
+  "ostatní": {
+    "extra_key": "ostatní",
+    "canonical": null
+  },
+  "výrobce": {
+    "extra_key": "výrobce",
+    "canonical": null
+  },
+  "právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "identifikační_číslo": {
+    "extra_key": "identifikační_číslo",
+    "canonical": "ico"
+  },
+  "sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "kód_adresy": {
+    "extra_key": "kód_adresy",
+    "canonical": "kod_adresy"
+  },
+  "id_datové_schránky": {
+    "extra_key": "id_datové_schránky",
+    "canonical": "datovka"
+  },
+  "webová_stránka": {
+    "extra_key": "webová_stránka",
+    "canonical": "web"
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "název_ulice": {
+    "extra_key": "název_ulice",
+    "canonical": "ulice"
+  },
+  "číslo_popisné": {
+    "extra_key": "číslo_popisné",
+    "canonical": null
+  },
+  "typ_čísla_popisného": {
+    "extra_key": "typ_čísla_popisného",
+    "canonical": null
+  },
+  "číslo_orientační": {
+    "extra_key": "číslo_orientační",
+    "canonical": "cislo_orientacni"
+  },
+  "poštovní_směrovací_číslo": {
+    "extra_key": "poštovní_směrovací_číslo",
+    "canonical": "psc"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

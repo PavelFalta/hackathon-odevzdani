@@ -1,0 +1,138 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "Kód": {
+    "extra_key": "kód",
+    "canonical": null
+  },
+  "Kategorie": {
+    "extra_key": "kategorie",
+    "canonical": null
+  },
+  "Předmět_ochrany": {
+    "extra_key": "předmět_ochrany",
+    "canonical": null
+  },
+  "Webová_stránka": {
+    "extra_key": "webová_stránka",
+    "canonical": "web"
+  },
+  "Rozloha__ha_": {
+    "extra_key": "rozloha_ha_",
+    "canonical": null
+  },
+  "Typ_ochranného_pásma": {
+    "extra_key": "typ_ochranného_pásma",
+    "canonical": null
+  },
+  "Kategorie_Mezinárodního_svazu_ochrany_přírody__IUCN_": {
+    "extra_key": "kategorie_mezinárodního_svazu_ochrany_přírody_iucn_",
+    "canonical": null
+  },
+  "Rozloha_ochranného_pásma__ha_": {
+    "extra_key": "rozloha_ochranného_pásma_ha_",
+    "canonical": null
+  },
+  "Nadmořská_výška_min_": {
+    "extra_key": "nadmořská_výška_min_",
+    "canonical": null
+  },
+  "Nadmořská_výška_max_": {
+    "extra_key": "nadmořská_výška_max_",
+    "canonical": null
+  },
+  "Ostatní_informace": {
+    "extra_key": "ostatní_informace",
+    "canonical": null
+  },
+  "Datum_prvního_vyhlášení": {
+    "extra_key": "datum_prvního_vyhlášení",
+    "canonical": null
+  },
+  "Datum_posledního_vyhlášení": {
+    "extra_key": "datum_posledního_vyhlášení",
+    "canonical": null
+  },
+  "Datum_účinnosti_posledního_právního_dokumentu": {
+    "extra_key": "datum_účinnosti_posledního_právního_dokumentu",
+    "canonical": null
+  },
+  "Orgán_ochrany_přírody": {
+    "extra_key": "orgán_ochrany_přírody",
+    "canonical": null
+  },
+  "Název_orgánu": {
+    "extra_key": "název_orgánu",
+    "canonical": null
+  },
+  "Identifikační_číslo": {
+    "extra_key": "identifikační_číslo",
+    "canonical": "ico"
+  },
+  "Právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "Sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "Kód_adresy": {
+    "extra_key": "kód_adresy",
+    "canonical": "kod_adresy"
+  },
+  "ID_datové_schránky": {
+    "extra_key": "id_datové_schránky",
+    "canonical": "datovka"
+  },
+  "Webová_stránka_organizace": {
+    "extra_key": "webová_stránka_organizace",
+    "canonical": null
+  },
+  "Název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "Kód_vyššího_územně_samosprávného_celku_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku_dle_číselníku_čsú",
+    "canonical": "vusc_kod"
+  },
+  "Název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "Kód_okresu_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_okresu_dle_číselníku_čsú",
+    "canonical": null
+  },
+  "Název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "Kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "Zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

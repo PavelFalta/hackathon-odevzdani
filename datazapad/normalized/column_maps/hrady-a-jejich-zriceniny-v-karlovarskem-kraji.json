@@ -1,0 +1,102 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "hrad": {
+    "extra_key": "hrad",
+    "canonical": null
+  },
+  "tvrz": {
+    "extra_key": "tvrz",
+    "canonical": null
+  },
+  "zřícenina": {
+    "extra_key": "zřícenina",
+    "canonical": null
+  },
+  "zámek": {
+    "extra_key": "zámek",
+    "canonical": null
+  },
+  "archeologické_stopy": {
+    "extra_key": "archeologické_stopy",
+    "canonical": null
+  },
+  "památková_ochrana": {
+    "extra_key": "památková_ochrana",
+    "canonical": null
+  },
+  "fáze_ochrany": {
+    "extra_key": "fáze_ochrany",
+    "canonical": null
+  },
+  "poznámka": {
+    "extra_key": "poznámka",
+    "canonical": null
+  },
+  "přístupné": {
+    "extra_key": "přístupné",
+    "canonical": null
+  },
+  "vstupné": {
+    "extra_key": "vstupné",
+    "canonical": null
+  },
+  "webová_stránka": {
+    "extra_key": "webová_stránka",
+    "canonical": "web"
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

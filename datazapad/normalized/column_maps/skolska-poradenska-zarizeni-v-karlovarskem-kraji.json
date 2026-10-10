@@ -1,0 +1,90 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "ORGANIZACE": {
+    "extra_key": "organizace",
+    "canonical": null
+  },
+  "NAZEVOBCE": {
+    "extra_key": "nazevobce",
+    "canonical": null
+  },
+  "NAZEVULICE": {
+    "extra_key": "nazevulice",
+    "canonical": null
+  },
+  "DOMCIS": {
+    "extra_key": "domcis",
+    "canonical": null
+  },
+  "ORIENCIS": {
+    "extra_key": "oriencis",
+    "canonical": null
+  },
+  "PSC": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "OKRES": {
+    "extra_key": "okres",
+    "canonical": null
+  },
+  "ID_RUIAN": {
+    "extra_key": "id_ruian",
+    "canonical": null
+  },
+  "TYP_ZARIZENI": {
+    "extra_key": "typ_zarizeni",
+    "canonical": null
+  },
+  "ICO": {
+    "extra_key": "ico",
+    "canonical": "ico"
+  },
+  "IZO": {
+    "extra_key": "izo",
+    "canonical": null
+  },
+  "ZRIZOVATEL": {
+    "extra_key": "zrizovatel",
+    "canonical": null
+  },
+  "DATOVKA": {
+    "extra_key": "datovka",
+    "canonical": "datovka"
+  },
+  "WEB": {
+    "extra_key": "web",
+    "canonical": "web"
+  },
+  "X": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "Y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "N": {
+    "extra_key": "n",
+    "canonical": null
+  },
+  "E": {
+    "extra_key": "e",
+    "canonical": null
+  },
+  "WKT_JTSK": {
+    "extra_key": "wkt_jtsk",
+    "canonical": null
+  },
+  "WKT_WGS": {
+    "extra_key": "wkt_wgs",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

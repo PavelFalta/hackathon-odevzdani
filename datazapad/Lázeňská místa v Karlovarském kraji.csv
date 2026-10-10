@@ -1,0 +1,6 @@
+﻿OBJECTID,Název,Název_vyššího_územně_samosprávn,Kód_vyššího_územně_samosprávnéh,Název_okresu,Kód_okresu,Název_obce_s_rozšířenou_působno,Kód_obce_s_rozšířenou_působnost,Název_obce,Kód_obce,Zeměpisná_délka_v_souřadnicovém,Zeměpisná_šířka_v_souřadnicovém,x,y,Zápis_vektorové_geometrie,geometry_wkt
+1,Františkovy Lázně,Karlovarský kraj,CZ041,Cheb,CZ0411,Cheb,4102,Františkovy Lázně,554529,12.349399,50.11681,12.349399,50.11681,POINT(50.1168104 12.3493986),POINT (12.349399000000062 50.11681000000003)
+2,Jáchymov,Karlovarský kraj,CZ041,Karlovy Vary,CZ0412,Ostrov,4106,Jáchymov,555215,12.913865,50.371289,12.913865,50.371289,POINT(50.3712888 12.9138647),POINT (12.913865000000044 50.37128900000004)
+3,Karlovy Vary,Karlovarský kraj,CZ041,Karlovy Vary,CZ0412,Karlovy Vary,4103,Karlovy Vary,554961,12.881313,50.219037,12.881313,50.219037,POINT(50.219037 12.8813127),POINT (12.881313000000034 50.21903700000006)
+4,Lázně Kynžvart,Karlovarský kraj,CZ041,Cheb,CZ0411,Mariánské Lázně,4105,Lázně Kynžvart,554600,12.625055,50.010198,12.625055,50.010198,POINT(50.0101977 12.6250545),POINT (12.625055000000032 50.01019800000006)
+5,Mariánské Lázně,Karlovarský kraj,CZ041,Cheb,CZ0411,Mariánské Lázně,4105,Mariánské Lázně,554642,12.703089,49.975313,12.703089,49.975313,POINT(49.9753125 12.7030893),POINT (12.703089000000034 49.97531300000002)

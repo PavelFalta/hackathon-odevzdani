@@ -1,0 +1,10 @@
+{
+  "name": "posledni-backend-scripts",
+  "private": true,
+  "scripts": {
+    "format": ".venv/bin/ruff format .",
+    "lint": ".venv/bin/ruff check .",
+    "test": ".venv/bin/pytest -q",
+    "check": "npm run format && npm run lint && npm run test"
+  }
+}

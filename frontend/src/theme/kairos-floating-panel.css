@@ -1,0 +1,33 @@
+/* Shared chrome for map HUD panels, chat, reviews, browser emulator. */
+.kairos-floating-panel {
+  position: fixed;
+  box-sizing: border-box;
+  max-width: none;
+  max-height: none;
+  pointer-events: auto;
+  z-index: 40;
+  font-family: var(--kairos-font);
+  font-size: var(--kairos-font-panel);
+  line-height: var(--kairos-line-panel);
+  color: var(--kairos-text);
+  border: 1px solid var(--kairos-border-subtle);
+  background: var(--kairos-surface);
+  box-shadow: 0 12px 40px rgb(0 0 0 / 0.45);
+  overflow: hidden;
+}
+
+.kairos-floating-panel__drag {
+  flex: 1;
+  min-width: 0;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.kairos-floating-panel__drag:active {
+  cursor: grabbing;
+}
+
+.kairos-floating-panel .kairos-scroll {
+  touch-action: pan-y;
+}

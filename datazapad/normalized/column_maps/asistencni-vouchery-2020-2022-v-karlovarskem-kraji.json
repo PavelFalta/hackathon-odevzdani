@@ -1,0 +1,158 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "nazev_spolecnosti": {
+    "extra_key": "nazev_spolecnosti",
+    "canonical": null
+  },
+  "ico": {
+    "extra_key": "ico",
+    "canonical": "ico"
+  },
+  "sektor": {
+    "extra_key": "sektor",
+    "canonical": null
+  },
+  "rok_podani_zadosti": {
+    "extra_key": "rok_podani_zadosti",
+    "canonical": null
+  },
+  "identifikace": {
+    "extra_key": "identifikace",
+    "canonical": null
+  },
+  "nazev_projektu": {
+    "extra_key": "nazev_projektu",
+    "canonical": null
+  },
+  "datum_podani_zadosti": {
+    "extra_key": "datum_podani_zadosti",
+    "canonical": null
+  },
+  "datum_vecneho_hodnoceni": {
+    "extra_key": "datum_vecneho_hodnoceni",
+    "canonical": null
+  },
+  "datum_zahajeni_realizace_projek": {
+    "extra_key": "datum_zahajeni_realizace_projek",
+    "canonical": null
+  },
+  "datum_ukonceni_realizace_projek": {
+    "extra_key": "datum_ukonceni_realizace_projek",
+    "canonical": null
+  },
+  "mena": {
+    "extra_key": "mena",
+    "canonical": null
+  },
+  "pozadovany_financni_prispevek": {
+    "extra_key": "pozadovany_financni_prispevek",
+    "canonical": null
+  },
+  "udeleny_financni_prispevek": {
+    "extra_key": "udeleny_financni_prispevek",
+    "canonical": null
+  },
+  "predpokladane_datum_proplaceni": {
+    "extra_key": "predpokladane_datum_proplaceni",
+    "canonical": null
+  },
+  "skutecne_datum_proplaceni": {
+    "extra_key": "skutecne_datum_proplaceni",
+    "canonical": null
+  },
+  "datum_schvaleni_vysledku_ZKK": {
+    "extra_key": "datum_schvaleni_vysledku_zkk",
+    "canonical": null
+  },
+  "vystup_projektu": {
+    "extra_key": "vystup_projektu",
+    "canonical": null
+  },
+  "uspesny": {
+    "extra_key": "uspesny",
+    "canonical": null
+  },
+  "podporeny": {
+    "extra_key": "podporeny",
+    "canonical": null
+  },
+  "duvod_nepodporeni_zadosti": {
+    "extra_key": "duvod_nepodporeni_zadosti",
+    "canonical": null
+  },
+  "poznamka": {
+    "extra_key": "poznamka",
+    "canonical": null
+  },
+  "nazev_vusc": {
+    "extra_key": "nazev_vusc",
+    "canonical": null
+  },
+  "kod_vusc": {
+    "extra_key": "kod_vusc",
+    "canonical": null
+  },
+  "nazev_okresu": {
+    "extra_key": "nazev_okresu",
+    "canonical": null
+  },
+  "kod_okresu": {
+    "extra_key": "kod_okresu",
+    "canonical": null
+  },
+  "nazev_orp": {
+    "extra_key": "nazev_orp",
+    "canonical": null
+  },
+  "kod_orp": {
+    "extra_key": "kod_orp",
+    "canonical": null
+  },
+  "nazev_obce": {
+    "extra_key": "nazev_obce",
+    "canonical": null
+  },
+  "kod_obce": {
+    "extra_key": "kod_obce",
+    "canonical": "obec_kod"
+  },
+  "nazev_ulice": {
+    "extra_key": "nazev_ulice",
+    "canonical": null
+  },
+  "cislo_domovni": {
+    "extra_key": "cislo_domovni",
+    "canonical": null
+  },
+  "typ_cisla_domovniho": {
+    "extra_key": "typ_cisla_domovniho",
+    "canonical": null
+  },
+  "cislo_orientacni": {
+    "extra_key": "cislo_orientacni",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zapis_vektorove_geometrie": {
+    "extra_key": "zapis_vektorove_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

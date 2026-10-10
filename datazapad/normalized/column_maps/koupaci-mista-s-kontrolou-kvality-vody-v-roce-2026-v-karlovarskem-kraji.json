@@ -1,0 +1,74 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "specifikace_místa": {
+    "extra_key": "specifikace_místa",
+    "canonical": null
+  },
+  "popis": {
+    "extra_key": "popis",
+    "canonical": null
+  },
+  "vybavenost": {
+    "extra_key": "vybavenost",
+    "canonical": null
+  },
+  "webová_stránka_KHS": {
+    "extra_key": "webová_stránka_khs",
+    "canonical": null
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

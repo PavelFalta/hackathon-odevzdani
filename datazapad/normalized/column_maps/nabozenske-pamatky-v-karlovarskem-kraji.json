@@ -1,0 +1,142 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "Typ": {
+    "extra_key": "typ",
+    "canonical": null
+  },
+  "Poznámka": {
+    "extra_key": "poznámka",
+    "canonical": null
+  },
+  "Přístupnost": {
+    "extra_key": "přístupnost",
+    "canonical": null
+  },
+  "Prohlídky": {
+    "extra_key": "prohlídky",
+    "canonical": null
+  },
+  "Vstupné": {
+    "extra_key": "vstupné",
+    "canonical": null
+  },
+  "Webová_stránka": {
+    "extra_key": "webová_stránka",
+    "canonical": "web"
+  },
+  "Provozovatel": {
+    "extra_key": "provozovatel",
+    "canonical": null
+  },
+  "Identifikační_číslo": {
+    "extra_key": "identifikační_číslo",
+    "canonical": "ico"
+  },
+  "Právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "Sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "Kód_adresy": {
+    "extra_key": "kód_adresy",
+    "canonical": "kod_adresy"
+  },
+  "ID_datové_schránky": {
+    "extra_key": "id_datové_schránky",
+    "canonical": "datovka"
+  },
+  "Kontaktní_e_mail": {
+    "extra_key": "kontaktní_e_mail",
+    "canonical": "email"
+  },
+  "Telefonní_kontakt": {
+    "extra_key": "telefonní_kontakt",
+    "canonical": "phone"
+  },
+  "Název_vyššího_územně_samosprávn": {
+    "extra_key": "název_vyššího_územně_samosprávn",
+    "canonical": "vusc_nazev"
+  },
+  "Kód_vyššího_územně_samosprávnéh": {
+    "extra_key": "kód_vyššího_územně_samosprávnéh",
+    "canonical": "vusc_kod"
+  },
+  "Název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "Kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "Název_obce_s_rozšířenou_působno": {
+    "extra_key": "název_obce_s_rozšířenou_působno",
+    "canonical": "orp_nazev"
+  },
+  "Kód_obce_s_rozšířenou_působnost": {
+    "extra_key": "kód_obce_s_rozšířenou_působnost",
+    "canonical": "orp_kod"
+  },
+  "Název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "Kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "Název_ulice": {
+    "extra_key": "název_ulice",
+    "canonical": "ulice"
+  },
+  "Číslo_domovní": {
+    "extra_key": "číslo_domovní",
+    "canonical": "cislo_domovni"
+  },
+  "Typ_čísla_domovního": {
+    "extra_key": "typ_čísla_domovního",
+    "canonical": null
+  },
+  "Číslo_orientační": {
+    "extra_key": "číslo_orientační",
+    "canonical": "cislo_orientacni"
+  },
+  "Poštovní_směrovací_číslo": {
+    "extra_key": "poštovní_směrovací_číslo",
+    "canonical": "psc"
+  },
+  "Zeměpisná_délka_v_souřadnicovém": {
+    "extra_key": "zeměpisná_délka_v_souřadnicovém",
+    "canonical": "lon"
+  },
+  "Zeměpisná_šířka_v_souřadnicovém": {
+    "extra_key": "zeměpisná_šířka_v_souřadnicovém",
+    "canonical": "lat"
+  },
+  "Zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

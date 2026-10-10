@@ -1,0 +1,170 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "IČO": {
+    "extra_key": "ičo",
+    "canonical": null
+  },
+  "Právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "Sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "Adresní_bod": {
+    "extra_key": "adresní_bod",
+    "canonical": null
+  },
+  "ID_datové_schránky": {
+    "extra_key": "id_datové_schránky",
+    "canonical": "datovka"
+  },
+  "Oblast_dopravy": {
+    "extra_key": "oblast_dopravy",
+    "canonical": null
+  },
+  "Oblast_kultury": {
+    "extra_key": "oblast_kultury",
+    "canonical": null
+  },
+  "Regionální_oblast": {
+    "extra_key": "regionální_oblast",
+    "canonical": null
+  },
+  "Oblast_řízení_projektů": {
+    "extra_key": "oblast_řízení_projektů",
+    "canonical": null
+  },
+  "Sociální_oblast": {
+    "extra_key": "sociální_oblast",
+    "canonical": null
+  },
+  "Oblast_zdravotnictví": {
+    "extra_key": "oblast_zdravotnictví",
+    "canonical": null
+  },
+  "Oblast_životního_prostředí": {
+    "extra_key": "oblast_životního_prostředí",
+    "canonical": null
+  },
+  "Oblast_školství": {
+    "extra_key": "oblast_školství",
+    "canonical": null
+  },
+  "Telefonní_kontakt": {
+    "extra_key": "telefonní_kontakt",
+    "canonical": "phone"
+  },
+  "Telefonní_kontakt_2": {
+    "extra_key": "telefonní_kontakt_2",
+    "canonical": null
+  },
+  "E_mail": {
+    "extra_key": "e_mail",
+    "canonical": null
+  },
+  "E_mail_2": {
+    "extra_key": "e_mail_2",
+    "canonical": null
+  },
+  "E_mail_3": {
+    "extra_key": "e_mail_3",
+    "canonical": null
+  },
+  "Webová_stránka": {
+    "extra_key": "webová_stránka",
+    "canonical": "web"
+  },
+  "Název_země": {
+    "extra_key": "název_země",
+    "canonical": null
+  },
+  "Kód_země": {
+    "extra_key": "kód_země",
+    "canonical": null
+  },
+  "Název_vyššího_územně_samosprávn": {
+    "extra_key": "název_vyššího_územně_samosprávn",
+    "canonical": "vusc_nazev"
+  },
+  "Kód_vyššího_územně_samosprávnéh": {
+    "extra_key": "kód_vyššího_územně_samosprávnéh",
+    "canonical": "vusc_kod"
+  },
+  "Název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "Kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "Název_obce_s_rozšířenou_působno": {
+    "extra_key": "název_obce_s_rozšířenou_působno",
+    "canonical": "orp_nazev"
+  },
+  "Kód_obce_s_rozšířenou_působnost": {
+    "extra_key": "kód_obce_s_rozšířenou_působnost",
+    "canonical": "orp_kod"
+  },
+  "Název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "Kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "Název_ulice": {
+    "extra_key": "název_ulice",
+    "canonical": "ulice"
+  },
+  "Číslo_domovní": {
+    "extra_key": "číslo_domovní",
+    "canonical": "cislo_domovni"
+  },
+  "Typ_čísla_domovního": {
+    "extra_key": "typ_čísla_domovního",
+    "canonical": null
+  },
+  "Číslo_orientační": {
+    "extra_key": "číslo_orientační",
+    "canonical": "cislo_orientacni"
+  },
+  "Poštovní_směrovací_číslo": {
+    "extra_key": "poštovní_směrovací_číslo",
+    "canonical": "psc"
+  },
+  "Zeměpisná_délka_v_souřadnicovém": {
+    "extra_key": "zeměpisná_délka_v_souřadnicovém",
+    "canonical": "lon"
+  },
+  "Zeměpisná_šířka_v_souřadnicovém": {
+    "extra_key": "zeměpisná_šířka_v_souřadnicovém",
+    "canonical": "lat"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "Zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

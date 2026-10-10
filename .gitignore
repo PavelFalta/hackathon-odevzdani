@@ -9,7 +9,15 @@ __pycache__/
 .venv/
 dist/
 build/
-
-# Systémové soubory
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.py[cod]
+*.local
 .DS_Store
 Thumbs.db
+
+# Generovaný vektorový index (staví se při docker build / skriptem)
+datazapad/knowledge/
+datazapad/.knowledge-test-hash/

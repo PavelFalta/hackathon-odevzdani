@@ -1,0 +1,281 @@
+.assistant-chat-panel {
+  pointer-events: auto;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--kairos-font-panel);
+  line-height: var(--kairos-line-panel);
+}
+
+.assistant-chat-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0.45rem;
+  border-bottom: 1px solid var(--kairos-border-faint);
+}
+
+.assistant-chat-panel__drag {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0.45rem;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.assistant-chat-panel__drag:active {
+  cursor: grabbing;
+}
+
+.assistant-chat-panel__title {
+  font-size: var(--kairos-font-caption);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--kairos-muted);
+}
+
+.assistant-chat-panel__icon-btn {
+  font: inherit;
+  font-size: var(--kairos-font-icon);
+  line-height: 1;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--kairos-border-ghost);
+  background: transparent;
+  color: var(--kairos-muted);
+  cursor: pointer;
+}
+
+.assistant-chat-panel__icon-btn:hover {
+  border-color: var(--kairos-border-subtle);
+  color: var(--kairos-text);
+}
+
+.assistant-chat-panel__body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--kairos-gap-panel);
+  padding: var(--kairos-pad-panel-block) var(--kairos-pad-panel-inline)
+    calc(var(--kairos-pad-panel-block) + 0.05rem);
+}
+
+.assistant-status {
+  font-size: var(--kairos-font-caption);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--kairos-muted);
+}
+
+.assistant-status[data-state='ready'] {
+  color: var(--kairos-cyan-dim);
+}
+
+.assistant-retry {
+  font: inherit;
+  font-size: var(--kairos-font-ui);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--kairos-radius);
+  border: 1px solid var(--kairos-border-subtle);
+  background: transparent;
+  color: var(--kairos-text);
+  cursor: pointer;
+}
+
+.assistant-thread {
+  flex: 1;
+  min-height: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-right: 0.15rem;
+}
+
+.assistant-bubble {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  padding: var(--kairos-pad-panel-block) var(--kairos-pad-panel-inline);
+  border-radius: var(--kairos-radius);
+  white-space: pre-wrap;
+}
+
+.assistant-bubble--user {
+  align-self: flex-end;
+  max-width: 92%;
+  background: var(--kairos-bg);
+  border: 1px solid var(--kairos-border-subtle);
+  color: var(--kairos-text);
+}
+
+.assistant-bubble--assistant {
+  align-self: flex-start;
+  max-width: 92%;
+  background: transparent;
+  border: 1px solid var(--kairos-border-faint);
+  color: var(--kairos-muted);
+}
+
+.assistant-bubble--status {
+  font-style: italic;
+  color: var(--kairos-cyan-dim);
+  border-style: dashed;
+}
+
+.assistant-work {
+  align-self: stretch;
+  font-size: var(--kairos-font-caption);
+  border: 1px dashed var(--kairos-border-ghost);
+  background: rgb(0 0 0 / 0.35);
+}
+
+.assistant-work__toggle {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.35rem;
+  align-items: center;
+  font: inherit;
+  font-size: inherit;
+  text-align: left;
+  padding: var(--kairos-pad-panel-block) var(--kairos-pad-panel-inline);
+  border: 0;
+  background: transparent;
+  color: var(--kairos-muted);
+  cursor: pointer;
+}
+
+.assistant-work__label {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--kairos-cyan-dim);
+}
+
+.assistant-work__current {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.assistant-work__chevron {
+  color: var(--kairos-muted);
+  font-size: var(--kairos-font-ui);
+}
+
+.assistant-work__steps {
+  margin: 0;
+  padding: 0.25rem 0.55rem 0.45rem 1.35rem;
+  color: var(--kairos-muted);
+  font-style: italic;
+  border-top: 1px dashed var(--kairos-border-ghost);
+}
+
+.assistant-work__steps li {
+  margin: 0.12rem 0;
+}
+
+.assistant-place-link {
+  font: inherit;
+  font-size: inherit;
+  color: var(--kairos-cyan);
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0 0.1em;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgb(111 195 223 / 0.45);
+  text-underline-offset: 0.15em;
+}
+
+.assistant-place-link:hover {
+  color: var(--kairos-cyan-dim);
+  text-decoration-color: var(--kairos-cyan-dim);
+}
+
+.assistant-chat-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.3rem;
+  align-items: stretch;
+  flex-shrink: 0;
+  padding-top: 0.15rem;
+  border-top: 1px solid var(--kairos-border-ghost);
+}
+
+.assistant-chat-form textarea {
+  width: 100%;
+  min-width: 0;
+  min-height: 2.1rem;
+  max-height: 2.1rem;
+  resize: none;
+  font: inherit;
+  font-size: var(--kairos-font-ui);
+  line-height: var(--kairos-line-panel);
+  padding: var(--kairos-pad-panel-block) var(--kairos-pad-panel-inline);
+  box-sizing: border-box;
+  border-radius: var(--kairos-radius);
+  border: 1px solid var(--kairos-border-faint);
+  background: var(--kairos-surface-input);
+  color: var(--kairos-text);
+}
+
+.assistant-chat-form textarea:focus {
+  outline: none;
+  border-color: var(--kairos-border-focus);
+}
+
+.assistant-chat-form button {
+  font: inherit;
+  font-size: var(--kairos-font-caption);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: var(--kairos-pad-panel-block) 0.5rem;
+  min-height: 2.1rem;
+  border-radius: var(--kairos-radius);
+  border: 1px solid var(--kairos-border-subtle);
+  background: var(--kairos-surface);
+  color: var(--kairos-text);
+  cursor: pointer;
+}
+
+.assistant-chat-form button:not(:disabled):hover {
+  border-color: var(--kairos-border-focus);
+  color: var(--kairos-cyan);
+}
+
+.assistant-chat-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.assistant-error {
+  color: var(--kairos-danger);
+  font-size: var(--kairos-font-ui);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

@@ -1,0 +1,16 @@
+---
+description: React/Mapbox frontend conventions
+globs: frontend/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Frontend
+
+- UI colors: VS Code Dark High Contrast — see `.cursor/rules/ui-theme.mdc` and `src/theme/variables.css`.
+- One exported component per `.tsx` file; extract hooks to `hooks/`, map logic to `features/map/`.
+- Use `import.meta.env.VITE_*` for config; never commit tokens.
+- API calls go through `src/api/`; assistant chat uses `/api/assistant/chat`.
+- Prefer small presentational components; avoid 200+ line files.
+- Map is scoped to Karlovarský kraj (`maxBounds`); default view Cheb with panorama intro.
+
+After edits: `cd frontend && npm run check`.

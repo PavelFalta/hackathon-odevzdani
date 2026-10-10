@@ -1,0 +1,42 @@
+:root {
+  /* VS Code Dark High Contrast (hc-black) */
+  --kairos-bg: #000000;
+  --kairos-panel: rgb(0 0 0 / 0.88);
+  --kairos-text: #ffffff;
+  --kairos-muted: #a5a5a5;
+  --kairos-cyan: #6fc3df;
+  --kairos-cyan-dim: #f38518;
+  --kairos-link: #21a6ff;
+  --kairos-selection: #f3f518;
+  --kairos-glow: rgb(243 133 24 / 0.45);
+  --kairos-danger: #f44747;
+  --kairos-danger-soft: #ffcccc;
+  --kairos-border-subtle: rgb(111 195 223 / 0.35);
+  --kairos-border-faint: rgb(111 195 223 / 0.25);
+  --kairos-border-ghost: rgb(111 195 223 / 0.2);
+  --kairos-border-strong: rgb(111 195 223 / 0.45);
+  --kairos-border-focus: rgb(243 133 24 / 0.65);
+  --kairos-surface: rgb(0 0 0 / 0.92);
+  --kairos-surface-mid: rgb(0 0 0 / 0.9);
+  --kairos-surface-low: rgb(0 0 0 / 0.55);
+  --kairos-surface-input: rgb(0 0 0 / 0.95);
+  --kairos-danger-border: rgb(244 71 71 / 0.55);
+  --kairos-font: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace;
+  /* HUD panels: between legacy ~10px body and oversized 14px */
+  --kairos-font-caption: 0.6875rem;
+  --kairos-font-ui: 0.71875rem;
+  --kairos-font-panel: 0.75rem;
+  --kairos-font-title: 0.8125rem;
+  --kairos-font-heading: 0.875rem;
+  --kairos-font-icon: 0.75rem;
+  --kairos-line-panel: 1.35;
+  --kairos-gap-panel: 0.3rem;
+  --kairos-pad-panel-block: 0.28rem;
+  --kairos-pad-panel-inline: 0.4rem;
+  --kairos-radius: 0.2rem;
+  --kairos-scrollbar-size: 1rem;
+  --kairos-scrollbar-track: rgb(0 0 0 / 0.72);
+  --kairos-scrollbar-thumb: rgb(243 133 24 / 0.88);
+  --kairos-scrollbar-thumb-hover: #f38518;
+  --kairos-scrollbar-border: rgb(243 133 24 / 0.4);
+}

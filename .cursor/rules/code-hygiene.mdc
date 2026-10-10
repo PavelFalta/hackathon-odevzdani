@@ -1,0 +1,14 @@
+---
+description: File size and module hygiene
+alwaysApply: true
+---
+
+# Code hygiene
+
+- **~120 lines** per production file is the target; **200 is the hard cap** (`npm run check:lines`).
+- Split early: new file beats a growing god-module.
+- No unused exports, dead branches, or TODO without an issue reference.
+- Prefer explicit types at boundaries; avoid `any`.
+- Keep functions short (oxlint warns past 60 lines; backend ruff PLR limits statements/branches).
+
+If you touch a file already near the limit, refactor it in the same change.

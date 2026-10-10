@@ -1,0 +1,10 @@
+.assistant-hub {
+  position: fixed;
+  inset: var(--shell-header-height, 3.5rem) 0 0 0;
+  z-index: 23;
+  pointer-events: none;
+}
+
+.assistant-hub > * {
+  pointer-events: auto;
+}

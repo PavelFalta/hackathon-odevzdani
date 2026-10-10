@@ -1,0 +1,74 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "Číslo_zastávky": {
+    "extra_key": "číslo_zastávky",
+    "canonical": null
+  },
+  "Stanoviště": {
+    "extra_key": "stanoviště",
+    "canonical": null
+  },
+  "Název_vyššího_územního_samosprávného_celku": {
+    "extra_key": "název_vyššího_územního_samosprávného_celku",
+    "canonical": null
+  },
+  "Kód_vyššího_územního_samosprávného_celku_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_vyššího_územního_samosprávného_celku_dle_číselníku_čsú",
+    "canonical": null
+  },
+  "Název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "Kód_okresu_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_okresu_dle_číselníku_čsú",
+    "canonical": null
+  },
+  "Název_správního_obvodu_obce_s_rozšířenou_působností": {
+    "extra_key": "název_správního_obvodu_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "Kód_správního_obvodu_obce_s_rozšířenou_působností_dle_číselníku": {
+    "extra_key": "kód_správního_obvodu_obce_s_rozšířenou_působností_dle_číselníku",
+    "canonical": "orp_kod"
+  },
+  "Název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "Kód_obce_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_obce_dle_číselníku_čsú",
+    "canonical": null
+  },
+  "Zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "Zeměpisná_délka_v_souřadnicovém_systému_WGS84": {
+    "extra_key": "zeměpisná_délka_v_souřadnicovém_systému_wgs84",
+    "canonical": "lon"
+  },
+  "Zeměpisná_šířka_v_souřadnicovém_systému_WGS84": {
+    "extra_key": "zeměpisná_šířka_v_souřadnicovém_systému_wgs84",
+    "canonical": "lat"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

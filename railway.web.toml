@@ -1,0 +1,8 @@
+# Optional split deploy only. Prefer monolith Dockerfile.railway + railway.toml.
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "frontend/Dockerfile.railway"
+watchPatterns = ["frontend/**"]
+
+[deploy]
+restartPolicyType = "ON_FAILURE"

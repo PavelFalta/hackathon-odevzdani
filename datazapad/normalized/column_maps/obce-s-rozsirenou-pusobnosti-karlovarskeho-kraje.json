@@ -1,0 +1,50 @@
+{
+  "objectid": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "nazev_orp": {
+    "extra_key": "nazev_orp",
+    "canonical": null
+  },
+  "kod_orp": {
+    "extra_key": "kod_orp",
+    "canonical": null
+  },
+  "kod_nuts3": {
+    "extra_key": "kod_nuts3",
+    "canonical": null
+  },
+  "obce_orp": {
+    "extra_key": "obce_orp",
+    "canonical": null
+  },
+  "pocet_obci": {
+    "extra_key": "pocet_obci",
+    "canonical": null
+  },
+  "adresni_bod": {
+    "extra_key": "adresni_bod",
+    "canonical": null
+  },
+  "wkt_jtsk": {
+    "extra_key": "wkt_jtsk",
+    "canonical": null
+  },
+  "wkt_wgs84": {
+    "extra_key": "wkt_wgs84",
+    "canonical": null
+  },
+  "SHAPE__Length": {
+    "extra_key": "shape_length",
+    "canonical": null
+  },
+  "SHAPE__Area": {
+    "extra_key": "shape_area",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

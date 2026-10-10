@@ -1,0 +1,26 @@
+.kairos-wordmark__ai {
+  display: inline-block;
+}
+
+@keyframes kairos-wordmark-ai-jump {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  35% {
+    transform: translateY(-0.42em);
+  }
+
+  55% {
+    transform: translateY(-0.08em);
+  }
+}
+
+.kairos-wordmark__ai--wave {
+  animation: kairos-wordmark-ai-jump 0.48s cubic-bezier(0.34, 1.2, 0.48, 1);
+}
+
+.kairos-wordmark__ai--i.kairos-wordmark__ai--wave {
+  animation-delay: 0.13s;
+}

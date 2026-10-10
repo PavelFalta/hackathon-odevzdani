@@ -1,0 +1,11 @@
+.git
+.cursor
+**/.venv
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+frontend/dist
+backend/tests
+*.md
+!backend/README.md

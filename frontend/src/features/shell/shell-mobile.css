@@ -1,0 +1,136 @@
+.map-workspace--shell {
+  --mobile-dock-height: 45dvh;
+}
+
+.map-workspace--shell.map-workspace--mobile-shell .map-fixed-host {
+  top: 0;
+}
+
+.map-workspace--shell.map-workspace--mobile-dock .map-fixed-host {
+  bottom: var(--mobile-dock-height);
+}
+
+@media (max-width: 768px) {
+  .shell-header {
+    display: none;
+  }
+
+  .shell-main {
+    flex-direction: column;
+    --shell-header-height: 0px;
+  }
+
+  .shell-map-stage {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shell-map-stage .map-shell--full {
+    flex: 1;
+    min-height: 0;
+  }
+
+  .assistant-hub {
+    inset: 0;
+  }
+
+  .shell--mobile-dock-open .assistant-action-menu {
+    bottom: calc(var(--mobile-dock-height) + 0.65rem);
+  }
+
+  .shell-dock {
+    flex: 0 0 var(--mobile-dock-height);
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    border-top: 1px solid var(--kairos-border-faint);
+    background: var(--kairos-surface);
+    z-index: 22;
+  }
+
+  .shell-dock__tabs {
+    display: flex;
+    gap: 0.35rem;
+    padding: 0.4rem 0.5rem;
+    overflow-x: auto;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--kairos-border-ghost);
+  }
+
+  .shell-dock__tab {
+    font: inherit;
+    font-size: var(--kairos-font-ui);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid var(--kairos-border-subtle);
+    background: var(--kairos-surface-low);
+    color: var(--kairos-muted);
+    cursor: pointer;
+    white-space: nowrap;
+    max-width: 12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .shell-dock__tab[data-active='true'] {
+    color: var(--kairos-cyan-dim);
+    border-color: var(--kairos-cyan-border);
+    background: rgb(34 211 238 / 0.08);
+  }
+
+  .shell-dock__tab-label {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .shell-dock__body {
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shell-dock__pane {
+    position: absolute;
+    inset: 0;
+    min-height: 0;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .shell-dock__pane[data-active='true'] {
+    display: flex;
+  }
+
+  .kairos-floating-panel--dock {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: none !important;
+    z-index: auto !important;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+
+  .kairos-floating-panel--dock .kairos-floating-panel__drag {
+    cursor: default;
+  }
+
+  .kairos-floating-panel--dock .assistant-chat-panel__body,
+  .kairos-floating-panel--dock .reviews-panel__body,
+  .kairos-floating-panel--dock .navigation-panel__body,
+  .kairos-floating-panel--dock .timetable-panel__body,
+  .kairos-floating-panel--dock .browser-emulator__viewport {
+    flex: 1;
+    min-height: 0;
+  }
+}

@@ -1,0 +1,233 @@
+.browser-emulator-launcher {
+  position: fixed;
+  z-index: 12;
+  right: 0.75rem;
+  bottom: 5.25rem;
+  font: inherit;
+  font-size: var(--kairos-font-ui);
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.55rem;
+  color: var(--kairos-muted);
+  border: 1px solid var(--kairos-border-ghost);
+  background: var(--kairos-surface);
+  cursor: pointer;
+}
+
+.browser-emulator-launcher:hover {
+  color: var(--kairos-cyan);
+  border-color: var(--kairos-border-subtle);
+}
+
+.browser-emulator {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--kairos-font);
+  font-size: var(--kairos-font-panel);
+  color: var(--kairos-text);
+  border: 1px solid var(--kairos-border-subtle);
+  background: var(--kairos-surface);
+}
+
+.browser-emulator__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0.45rem;
+  border-bottom: 1px solid var(--kairos-border-faint);
+}
+
+.browser-emulator__drag {
+  flex: 1;
+  padding: 0.2rem 0.25rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: var(--kairos-font-caption);
+  color: var(--kairos-muted);
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.browser-emulator__drag:active {
+  cursor: grabbing;
+}
+
+.browser-emulator__url-readout {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0.75;
+  font-size: var(--kairos-font-caption);
+  padding: 0 0.35rem;
+}
+
+.browser-emulator__window-actions {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.browser-emulator__icon-btn {
+  font: inherit;
+  font-size: var(--kairos-font-icon);
+  line-height: 1;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid var(--kairos-border-ghost);
+  background: transparent;
+  color: var(--kairos-muted);
+  cursor: pointer;
+}
+
+.browser-emulator__icon-btn:hover:not(:disabled) {
+  border-color: var(--kairos-border-subtle);
+  color: var(--kairos-text);
+}
+
+.browser-emulator__icon-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.browser-emulator__urlbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.3rem;
+  padding: 0.35rem 0.45rem;
+  border-bottom: 1px solid var(--kairos-border-ghost);
+}
+
+.browser-emulator__urlbar input {
+  font: inherit;
+  font-size: var(--kairos-font-ui);
+  padding: 0.35rem 0.45rem;
+  border: 1px solid var(--kairos-border-faint);
+  background: var(--kairos-surface-input);
+  color: var(--kairos-text);
+  min-width: 0;
+}
+
+.browser-emulator__urlbar input:focus {
+  outline: none;
+  border-color: var(--kairos-border-focus);
+}
+
+.browser-emulator__urlbar button {
+  font: inherit;
+  font-size: var(--kairos-font-caption);
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--kairos-border-subtle);
+  background: transparent;
+  color: var(--kairos-cyan);
+  cursor: pointer;
+}
+
+.browser-emulator__error {
+  margin: 0;
+  padding: 0.2rem 0.45rem;
+  font-size: var(--kairos-font-ui);
+  color: var(--kairos-danger-soft);
+}
+
+.browser-emulator__viewport {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  margin: 0.35rem;
+  border: 1px solid var(--kairos-border-faint);
+  background: rgb(0 0 0 / 0.6);
+  overflow: hidden;
+}
+
+.browser-emulator__frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.browser-emulator__loading {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  font-size: var(--kairos-font-ui);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--kairos-muted);
+  background: rgb(0 0 0 / 0.72);
+}
+
+.browser-emulator__spinner {
+  width: 0.85rem;
+  height: 0.85rem;
+  border: 2px solid var(--kairos-border-faint);
+  border-top-color: var(--kairos-cyan);
+  border-radius: 50%;
+  animation: browser-emulator-spin 0.7s linear infinite;
+}
+
+@keyframes browser-emulator-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.browser-emulator__idle {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0.75rem;
+  text-align: center;
+  color: var(--kairos-muted);
+  font-size: var(--kairos-font-ui);
+}
+
+.browser-emulator__blocked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 0.75rem;
+  text-align: center;
+  color: var(--kairos-muted);
+  font-size: var(--kairos-font-ui);
+}
+
+.browser-emulator__blocked button {
+  font: inherit;
+  font-size: var(--kairos-font-caption);
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--kairos-border-subtle);
+  background: transparent;
+  color: var(--kairos-cyan);
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

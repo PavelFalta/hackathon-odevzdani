@@ -1,0 +1,54 @@
+{
+  "objectid": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "kod": {
+    "extra_key": "kod",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "vyjezdovazakladna": {
+    "extra_key": "vyjezdovazakladna",
+    "canonical": null
+  },
+  "provoznidoba": {
+    "extra_key": "provoznidoba",
+    "canonical": null
+  },
+  "oblastnistredisko": {
+    "extra_key": "oblastnistredisko",
+    "canonical": null
+  },
+  "adresa_1": {
+    "extra_key": "adresa_1",
+    "canonical": null
+  },
+  "kraj": {
+    "extra_key": "kraj",
+    "canonical": null
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "n": {
+    "extra_key": "n",
+    "canonical": null
+  },
+  "e": {
+    "extra_key": "e",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

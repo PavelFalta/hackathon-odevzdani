@@ -1,0 +1,106 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "obec_umístění_pohřebiště": {
+    "extra_key": "obec_umístění_pohřebiště",
+    "canonical": null
+  },
+  "správce_pohřebiště": {
+    "extra_key": "správce_pohřebiště",
+    "canonical": null
+  },
+  "identifikační_číslo_správce": {
+    "extra_key": "identifikační_číslo_správce",
+    "canonical": null
+  },
+  "sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "kód_adresy": {
+    "extra_key": "kód_adresy",
+    "canonical": "kod_adresy"
+  },
+  "id_datové_schránky": {
+    "extra_key": "id_datové_schránky",
+    "canonical": "datovka"
+  },
+  "poznámka": {
+    "extra_key": "poznámka",
+    "canonical": null
+  },
+  "katastrální_území": {
+    "extra_key": "katastrální_území",
+    "canonical": null
+  },
+  "číslo_katastrálního_území": {
+    "extra_key": "číslo_katastrálního_území",
+    "canonical": null
+  },
+  "pozemky_parcelní_číslo": {
+    "extra_key": "pozemky_parcelní_číslo",
+    "canonical": null
+  },
+  "vydání_souhlasu": {
+    "extra_key": "vydání_souhlasu",
+    "canonical": null
+  },
+  "tlecí_doba": {
+    "extra_key": "tlecí_doba",
+    "canonical": null
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

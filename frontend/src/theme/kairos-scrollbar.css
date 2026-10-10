@@ -1,0 +1,32 @@
+/* Orange Kairos scrollbars — use .kairos-scroll on panel bodies and viewports. */
+.kairos-scroll {
+  overflow-y: scroll;
+  overflow-x: auto;
+  scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: var(--kairos-scrollbar-thumb) var(--kairos-scrollbar-track);
+}
+
+.kairos-scroll::-webkit-scrollbar {
+  width: var(--kairos-scrollbar-size);
+  height: var(--kairos-scrollbar-size);
+}
+
+.kairos-scroll::-webkit-scrollbar-track {
+  background: var(--kairos-scrollbar-track);
+  border-left: 1px solid var(--kairos-scrollbar-border);
+}
+
+.kairos-scroll::-webkit-scrollbar-thumb {
+  background: var(--kairos-scrollbar-thumb);
+  border: 1px solid var(--kairos-scrollbar-border);
+  min-height: 3rem;
+}
+
+.kairos-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--kairos-scrollbar-thumb-hover);
+}
+
+.kairos-scroll::-webkit-scrollbar-corner {
+  background: var(--kairos-scrollbar-track);
+}

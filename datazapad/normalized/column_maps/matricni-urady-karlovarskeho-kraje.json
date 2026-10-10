@@ -1,0 +1,78 @@
+{
+  "objectid": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "nazev_uradu": {
+    "extra_key": "nazev_uradu",
+    "canonical": null
+  },
+  "nazev_obce": {
+    "extra_key": "nazev_obce",
+    "canonical": null
+  },
+  "nazev_ulice": {
+    "extra_key": "nazev_ulice",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "telefon": {
+    "extra_key": "telefon",
+    "canonical": "phone"
+  },
+  "uredni_dny": {
+    "extra_key": "uredni_dny",
+    "canonical": null
+  },
+  "uredni_hodiny": {
+    "extra_key": "uredni_hodiny",
+    "canonical": null
+  },
+  "e_podatelna": {
+    "extra_key": "e_podatelna",
+    "canonical": null
+  },
+  "kod_adresy": {
+    "extra_key": "kod_adresy",
+    "canonical": null
+  },
+  "cislo_domovni": {
+    "extra_key": "cislo_domovni",
+    "canonical": null
+  },
+  "cislo_orientacni": {
+    "extra_key": "cislo_orientacni",
+    "canonical": null
+  },
+  "id_transakce": {
+    "extra_key": "id_transakce",
+    "canonical": null
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "n": {
+    "extra_key": "n",
+    "canonical": null
+  },
+  "e": {
+    "extra_key": "e",
+    "canonical": null
+  },
+  "zapis_vektorove_geometrie": {
+    "extra_key": "zapis_vektorove_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

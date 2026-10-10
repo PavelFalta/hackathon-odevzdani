@@ -1,0 +1,98 @@
+{
+  "objectid": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "nazev": {
+    "extra_key": "nazev",
+    "canonical": "name"
+  },
+  "kod": {
+    "extra_key": "kod",
+    "canonical": null
+  },
+  "nazevuradu": {
+    "extra_key": "nazevuradu",
+    "canonical": null
+  },
+  "ulice": {
+    "extra_key": "ulice",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "adresnimisto": {
+    "extra_key": "adresnimisto",
+    "canonical": null
+  },
+  "posta": {
+    "extra_key": "posta",
+    "canonical": null
+  },
+  "telefonobce": {
+    "extra_key": "telefonobce",
+    "canonical": "phone"
+  },
+  "datovka": {
+    "extra_key": "datovka",
+    "canonical": "datovka"
+  },
+  "mail": {
+    "extra_key": "mail",
+    "canonical": "email"
+  },
+  "wwwstranky": {
+    "extra_key": "wwwstranky",
+    "canonical": "web"
+  },
+  "ico": {
+    "extra_key": "ico",
+    "canonical": "ico"
+  },
+  "orp": {
+    "extra_key": "orp",
+    "canonical": null
+  },
+  "okres": {
+    "extra_key": "okres",
+    "canonical": null
+  },
+  "statuskod": {
+    "extra_key": "statuskod",
+    "canonical": null
+  },
+  "pou": {
+    "extra_key": "pou",
+    "canonical": null
+  },
+  "idtransakce": {
+    "extra_key": "idtransakce",
+    "canonical": null
+  },
+  "globalniidnavrhuzmeny": {
+    "extra_key": "globalniidnavrhuzmeny",
+    "canonical": null
+  },
+  "nutslau": {
+    "extra_key": "nutslau",
+    "canonical": null
+  },
+  "pointgeometry": {
+    "extra_key": "pointgeometry",
+    "canonical": null
+  },
+  "SHAPE__Length": {
+    "extra_key": "shape_length",
+    "canonical": null
+  },
+  "SHAPE__Area": {
+    "extra_key": "shape_area",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

@@ -1,0 +1,24 @@
+.map-workspace {
+  --shell-header-height: 3.5rem;
+}
+
+.map-fixed-host {
+  position: fixed;
+  z-index: 0;
+  pointer-events: auto;
+}
+
+.map-workspace--login .map-fixed-host {
+  inset: 0;
+}
+
+.map-workspace--shell .map-fixed-host {
+  top: var(--shell-header-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.map-workspace--login .map-fixed-host .map-canvas {
+  visibility: visible;
+}

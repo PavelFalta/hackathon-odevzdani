@@ -1,0 +1,11 @@
+/*
+ * iOS Safari zooms the page when a focused field has computed font-size < 16px.
+ * Map pinch-zoom is handled by Mapbox on the canvas, not browser viewport zoom.
+ */
+@media (max-width: 768px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}

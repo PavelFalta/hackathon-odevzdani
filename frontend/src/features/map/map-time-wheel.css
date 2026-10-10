@@ -1,0 +1,186 @@
+.map-time-wheel {
+  position: absolute;
+  z-index: 4;
+  right: 0.75rem;
+  bottom: 2.35rem;
+  pointer-events: none;
+  width: min(11.25rem, 34vw);
+  padding: 0.5rem 0.4rem 0.4rem;
+  font-size: var(--kairos-font-ui);
+  opacity: 0;
+  transform: translateY(14px) scale(0.94);
+  filter: blur(6px);
+  transition:
+    opacity 0.44s ease,
+    transform 0.52s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.44s ease;
+}
+
+.map-time-wheel[data-phase='enter'][data-reveal-ready='true'],
+.map-time-wheel[data-phase='run'],
+.map-time-wheel[data-phase='hold'] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+.map-time-wheel[data-phase='exit'] {
+  opacity: 0;
+  transform: translateY(10px) scale(0.96);
+  filter: blur(4px);
+}
+
+.map-time-wheel__shell {
+  position: relative;
+}
+
+.map-time-wheel__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  pointer-events: none;
+  touch-action: none;
+}
+
+.map-time-wheel__markers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.map-time-wheel__marker-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0;
+  border-radius: 50%;
+  color: var(--kairos-muted);
+  opacity: 0.72;
+  transition:
+    color 0.35s ease,
+    opacity 0.35s ease,
+    filter 0.35s ease;
+}
+
+.map-time-wheel__marker-btn.active {
+  color: var(--kairos-cyan);
+  opacity: 1;
+  filter: drop-shadow(0 0 5px var(--kairos-glow));
+}
+
+.map-time-wheel__track-glow {
+  fill: none;
+  stroke: rgb(111 195 223 / 0.14);
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+
+.map-time-wheel[data-phase='run'] .map-time-wheel__track-glow {
+  animation: map-time-wheel-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes map-time-wheel-pulse {
+  0%,
+  100% {
+    stroke: rgb(111 195 223 / 0.12);
+  }
+
+  50% {
+    stroke: rgb(34 211 238 / 0.28);
+  }
+}
+
+.map-time-wheel__track {
+  fill: none;
+  stroke: var(--kairos-border-strong);
+  stroke-width: 1.75;
+  stroke-linecap: round;
+}
+
+.map-time-wheel__track-progress {
+  fill: none;
+  stroke: var(--kairos-cyan);
+  stroke-width: 2.25;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  filter: drop-shadow(0 0 6px var(--kairos-glow));
+  opacity: 0.9;
+}
+
+.map-time-wheel__track-inner {
+  fill: none;
+  stroke: var(--kairos-cyan);
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-dasharray: 2 5;
+  opacity: 0.22;
+}
+
+.map-time-wheel__handle-halo {
+  fill: none;
+  stroke: var(--kairos-border-ghost);
+  stroke-width: 1;
+  pointer-events: none;
+  transition: stroke 0.25s ease;
+}
+
+.map-time-wheel[data-phase='run'] .map-time-wheel__handle-halo {
+  stroke: rgb(34 211 238 / 0.55);
+}
+
+.map-time-wheel__handle-ring {
+  fill: rgb(0 0 0 / 0.75);
+  stroke: var(--kairos-cyan);
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 4px var(--kairos-glow));
+}
+
+.map-time-wheel__handle-core {
+  fill: var(--kairos-text);
+  pointer-events: none;
+}
+
+.map-time-wheel__clock {
+  margin: 0.05rem 0 0;
+  text-align: center;
+  pointer-events: none;
+}
+
+.map-time-wheel__clock-caption {
+  display: block;
+  margin: 0;
+  font-size: var(--kairos-font-caption);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--kairos-cyan);
+}
+
+.map-time-wheel__clock-value {
+  display: block;
+  margin-top: 0.1rem;
+  font: inherit;
+  font-size: var(--kairos-font-title);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.1em;
+  color: var(--kairos-text);
+  transition: color 0.2s ease;
+}
+
+.map-time-wheel[data-phase='run'] .map-time-wheel__clock-value {
+  color: #e8f7ff;
+  text-shadow: 0 0 12px rgb(34 211 238 / 0.35);
+}
+
+.map-time-wheel__sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

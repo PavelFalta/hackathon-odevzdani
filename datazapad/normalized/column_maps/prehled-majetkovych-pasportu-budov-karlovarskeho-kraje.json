@@ -1,0 +1,350 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "interní_číslo_majetkový_kód": {
+    "extra_key": "interní_číslo_majetkový_kód",
+    "canonical": null
+  },
+  "správce_objektu": {
+    "extra_key": "správce_objektu",
+    "canonical": null
+  },
+  "identifikační_číslo": {
+    "extra_key": "identifikační_číslo",
+    "canonical": "ico"
+  },
+  "vlastník": {
+    "extra_key": "vlastník",
+    "canonical": null
+  },
+  "identifikační_číslo_vlastníka": {
+    "extra_key": "identifikační_číslo_vlastníka",
+    "canonical": null
+  },
+  "podíl_krajského_úřadu_karlovarského_kraje": {
+    "extra_key": "podíl_krajského_úřadu_karlovarského_kraje",
+    "canonical": null
+  },
+  "druh_majetku": {
+    "extra_key": "druh_majetku",
+    "canonical": null
+  },
+  "okres": {
+    "extra_key": "okres",
+    "canonical": null
+  },
+  "obec": {
+    "extra_key": "obec",
+    "canonical": null
+  },
+  "část_obce": {
+    "extra_key": "část_obce",
+    "canonical": null
+  },
+  "katastrální_území": {
+    "extra_key": "katastrální_území",
+    "canonical": null
+  },
+  "list_vlastnictví": {
+    "extra_key": "list_vlastnictví",
+    "canonical": null
+  },
+  "číslo_parcely": {
+    "extra_key": "číslo_parcely",
+    "canonical": null
+  },
+  "výměra_parcely": {
+    "extra_key": "výměra_parcely",
+    "canonical": null
+  },
+  "ulice": {
+    "extra_key": "ulice",
+    "canonical": null
+  },
+  "číslo_popisné": {
+    "extra_key": "číslo_popisné",
+    "canonical": null
+  },
+  "účel": {
+    "extra_key": "účel",
+    "canonical": null
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "popis": {
+    "extra_key": "popis",
+    "canonical": null
+  },
+  "číslo_kulturní_památky": {
+    "extra_key": "číslo_kulturní_památky",
+    "canonical": null
+  },
+  "rok_výstavby": {
+    "extra_key": "rok_výstavby",
+    "canonical": null
+  },
+  "druh_stavby": {
+    "extra_key": "druh_stavby",
+    "canonical": null
+  },
+  "zdivo": {
+    "extra_key": "zdivo",
+    "canonical": null
+  },
+  "poloha": {
+    "extra_key": "poloha",
+    "canonical": null
+  },
+  "bezbariérový_přístup": {
+    "extra_key": "bezbariérový_přístup",
+    "canonical": null
+  },
+  "jídelna": {
+    "extra_key": "jídelna",
+    "canonical": null
+  },
+  "kotelna": {
+    "extra_key": "kotelna",
+    "canonical": null
+  },
+  "schodiště": {
+    "extra_key": "schodiště",
+    "canonical": null
+  },
+  "tělocvična": {
+    "extra_key": "tělocvična",
+    "canonical": null
+  },
+  "výtah": {
+    "extra_key": "výtah",
+    "canonical": null
+  },
+  "počet_bytových_jednotek": {
+    "extra_key": "počet_bytových_jednotek",
+    "canonical": null
+  },
+  "ubytovací_prostor_jednolůžkový": {
+    "extra_key": "ubytovací_prostor_jednolůžkový",
+    "canonical": null
+  },
+  "ubytovací_prostor_dvoulůžkový": {
+    "extra_key": "ubytovací_prostor_dvoulůžkový",
+    "canonical": null
+  },
+  "ubytovací_prostor_třílůžkový": {
+    "extra_key": "ubytovací_prostor_třílůžkový",
+    "canonical": null
+  },
+  "ubytovací_prostor_čtyřlůžkový": {
+    "extra_key": "ubytovací_prostor_čtyřlůžkový",
+    "canonical": null
+  },
+  "ubytovací_prostor_vícelůžkový": {
+    "extra_key": "ubytovací_prostor_vícelůžkový",
+    "canonical": null
+  },
+  "sociální_zařízení": {
+    "extra_key": "sociální_zařízení",
+    "canonical": null
+  },
+  "stropní_deska": {
+    "extra_key": "stropní_deska",
+    "canonical": null
+  },
+  "omítka": {
+    "extra_key": "omítka",
+    "canonical": null
+  },
+  "malba": {
+    "extra_key": "malba",
+    "canonical": null
+  },
+  "elektroinstalace": {
+    "extra_key": "elektroinstalace",
+    "canonical": null
+  },
+  "bleskosvod": {
+    "extra_key": "bleskosvod",
+    "canonical": null
+  },
+  "datové_či_telefonní_rozvody": {
+    "extra_key": "datové_či_telefonní_rozvody",
+    "canonical": null
+  },
+  "kamerový_systém": {
+    "extra_key": "kamerový_systém",
+    "canonical": null
+  },
+  "klimatizace": {
+    "extra_key": "klimatizace",
+    "canonical": null
+  },
+  "otopné_těleso": {
+    "extra_key": "otopné_těleso",
+    "canonical": null
+  },
+  "zabezpečovací_systém_elektronický": {
+    "extra_key": "zabezpečovací_systém_elektronický",
+    "canonical": null
+  },
+  "zabezpečovací_systém_hasící": {
+    "extra_key": "zabezpečovací_systém_hasící",
+    "canonical": null
+  },
+  "hasící_zařízení": {
+    "extra_key": "hasící_zařízení",
+    "canonical": null
+  },
+  "způsob_vytápění": {
+    "extra_key": "způsob_vytápění",
+    "canonical": null
+  },
+  "tepelné_čerpadlo": {
+    "extra_key": "tepelné_čerpadlo",
+    "canonical": null
+  },
+  "ohřev_vody": {
+    "extra_key": "ohřev_vody",
+    "canonical": null
+  },
+  "kanalizační_přípojka": {
+    "extra_key": "kanalizační_přípojka",
+    "canonical": null
+  },
+  "plynová_přípojka": {
+    "extra_key": "plynová_přípojka",
+    "canonical": null
+  },
+  "vodovodní_přípojka": {
+    "extra_key": "vodovodní_přípojka",
+    "canonical": null
+  },
+  "typ": {
+    "extra_key": "typ",
+    "canonical": null
+  },
+  "krytina": {
+    "extra_key": "krytina",
+    "canonical": null
+  },
+  "zateplení": {
+    "extra_key": "zateplení",
+    "canonical": null
+  },
+  "krov": {
+    "extra_key": "krov",
+    "canonical": null
+  },
+  "plocha_střechy": {
+    "extra_key": "plocha_střechy",
+    "canonical": null
+  },
+  "popis1": {
+    "extra_key": "popis1",
+    "canonical": null
+  },
+  "vodorovné_žlaby": {
+    "extra_key": "vodorovné_žlaby",
+    "canonical": null
+  },
+  "svody_povrchové": {
+    "extra_key": "svody_povrchové",
+    "canonical": null
+  },
+  "lemování_plechování": {
+    "extra_key": "lemování_plechování",
+    "canonical": null
+  },
+  "popis2": {
+    "extra_key": "popis2",
+    "canonical": null
+  },
+  "fasáda": {
+    "extra_key": "fasáda",
+    "canonical": null
+  },
+  "zateplení1": {
+    "extra_key": "zateplení1",
+    "canonical": null
+  },
+  "rok_poslední_opravy": {
+    "extra_key": "rok_poslední_opravy",
+    "canonical": null
+  },
+  "popis3": {
+    "extra_key": "popis3",
+    "canonical": null
+  },
+  "hydroizolace_svislá": {
+    "extra_key": "hydroizolace_svislá",
+    "canonical": null
+  },
+  "hydroizolace_vodorovná": {
+    "extra_key": "hydroizolace_vodorovná",
+    "canonical": null
+  },
+  "popis4": {
+    "extra_key": "popis4",
+    "canonical": null
+  },
+  "typ1": {
+    "extra_key": "typ1",
+    "canonical": null
+  },
+  "počet": {
+    "extra_key": "počet",
+    "canonical": null
+  },
+  "popis5": {
+    "extra_key": "popis5",
+    "canonical": null
+  },
+  "typ2": {
+    "extra_key": "typ2",
+    "canonical": null
+  },
+  "počet1": {
+    "extra_key": "počet1",
+    "canonical": null
+  },
+  "popis6": {
+    "extra_key": "popis6",
+    "canonical": null
+  },
+  "typ3": {
+    "extra_key": "typ3",
+    "canonical": null
+  },
+  "využitý_k_vytápění": {
+    "extra_key": "využitý_k_vytápění",
+    "canonical": null
+  },
+  "počet2": {
+    "extra_key": "počet2",
+    "canonical": null
+  },
+  "popis7": {
+    "extra_key": "popis7",
+    "canonical": null
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

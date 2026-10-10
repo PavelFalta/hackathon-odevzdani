@@ -1,0 +1,23 @@
+---
+description: Jarvis HUD visual language (shaders, map chrome)
+globs: frontend/src/**/*.{tsx,css}
+alwaysApply: false
+---
+
+# Jarvis UI theme
+
+- Palette: **VS Code Dark High Contrast** — black `#000000`, text `#FFFFFF`, contrast borders `#6FC3DF`, focus/orange accents `#F38518`, muted `#A5A5A5`, links `#21A6FF`, selection `#F3F518`.
+- Map chrome: sharp 1px cyan contrast borders; HUD tags may use orange glow (`--jarvis-glow`) on headings.
+- Use `ShaderBackdrop` on full-screen flows (login); keep shader colors aligned with HC black + orange/cyan (no navy/cyan Jarvis gradient).
+- Prefer CSS variables from `src/theme/variables.css`; avoid one-off hex unless extending the palette.
+- **No CSS gradients** in UI (`linear-gradient`, `radial-gradient`, `conic-gradient`) — flat solid or transparent fills only. Exception: `features/shaders/` (WebGL / login backdrop).
+- Shader logic stays in `features/shaders/`; do not embed large GLSL in components.
+- Map: Karlovarský kraj bounds, Cheb focus, Mapbox Standard + terrain + night preset.
+
+## Minimal chrome
+
+- Floating panels (web preview, map settings, assistant): **thin 1px borders**, flat `--jarvis-surface` backgrounds — no corner brackets, scanlines, or heavy glows.
+- **Short labels** (one word or a few words); avoid HUD jargon (`ENGINE`, `HOST`, agent hints) in the UI.
+- Use a **small loading indicator** for async or iframe loads; keep empty states to one line.
+- Drag handles must not wrap action buttons (close, external open) — buttons need their own hit target.
+- Scrollable panel areas use class **`jarvis-scroll`** (`theme/jarvis-scrollbar.css`) — orange thumb, dark track, **1rem** width, `overflow-y: scroll` so the bar stays visible. Proxied web iframe documents use the same rules from `theme/jarvis-scrollbar-document.css`.

@@ -1,0 +1,50 @@
+{
+  "FID": {
+    "extra_key": "fid",
+    "canonical": null
+  },
+  "KOD": {
+    "extra_key": "kod",
+    "canonical": null
+  },
+  "KAT": {
+    "extra_key": "kat",
+    "canonical": null
+  },
+  "NAZEV": {
+    "extra_key": "nazev",
+    "canonical": "name"
+  },
+  "ROZL": {
+    "extra_key": "rozl",
+    "canonical": null
+  },
+  "OP_TYP": {
+    "extra_key": "op_typ",
+    "canonical": null
+  },
+  "IUCN": {
+    "extra_key": "iucn",
+    "canonical": null
+  },
+  "PREKRYV": {
+    "extra_key": "prekryv",
+    "canonical": null
+  },
+  "POPISEK": {
+    "extra_key": "popisek",
+    "canonical": null
+  },
+  "Shape__Area": {
+    "extra_key": "shape_area",
+    "canonical": null
+  },
+  "Shape__Length": {
+    "extra_key": "shape_length",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

@@ -1,0 +1,107 @@
+.map-boot {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  display: grid;
+  place-items: end center;
+  padding-bottom: 12vh;
+  background: var(--kairos-bg);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.map-boot-outline {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map-boot-edge,
+.map-boot-sweep {
+  x: 1px;
+  y: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.map-boot-edge {
+  stroke: rgb(111 195 223 / 0.35);
+}
+
+.map-boot-sweep {
+  stroke: var(--kairos-cyan-dim);
+  stroke-linecap: square;
+  /* dash + gap must equal pathLength (100) so a full lap loops seamlessly */
+  stroke-dasharray: 14 86;
+  stroke-dashoffset: 0;
+  animation: map-boot-lap 5.5s linear infinite;
+}
+
+.map-boot-strip {
+  width: min(10.5rem, 48vw);
+  height: 2rem;
+  overflow: hidden;
+  opacity: 0.88;
+}
+
+.map-boot-strip-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.map-boot-copy {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  width: min(22rem, 78vw);
+  font-family: var(--kairos-font);
+}
+
+.map-boot-quote {
+  margin: 0;
+  min-height: 2.4em;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  text-align: center;
+  color: var(--kairos-text);
+  animation: map-boot-quote-in 0.45s ease;
+}
+
+.map-boot-meter {
+  width: min(12rem, 56vw);
+  height: 2px;
+  background: rgb(111 195 223 / 0.28);
+}
+
+.map-boot-meter span {
+  display: block;
+  height: 100%;
+  background: var(--kairos-cyan-dim);
+}
+
+@keyframes map-boot-lap {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+@keyframes map-boot-quote-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,51 @@
+# Monolith Railway image: nginx (SPA + PORT) + uvicorn on 127.0.0.1:8000 (/api proxy).
+FROM node:22-alpine AS frontend-build
+
+WORKDIR /app
+
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
+
+COPY frontend/ .
+
+ARG VITE_MAPBOX_TOKEN
+ENV VITE_MAPBOX_TOKEN=$VITE_MAPBOX_TOKEN
+# Same-origin /api via nginx; do not set VITE_API_BASE_URL.
+ENV VITE_API_BASE_URL=
+
+RUN npm run build
+
+FROM python:3.12-slim
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends nginx gettext-base \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    KNOWLEDGE_DIR=/app/datazapad/knowledge
+
+COPY backend ./backend
+COPY scripts/build-knowledge-base.py ./scripts/build-knowledge-base.py
+COPY datazapad ./datazapad
+
+WORKDIR /app/backend
+RUN pip install --no-cache-dir -e .
+
+ARG OPENAI_API_KEY
+ENV OPENAI_API_KEY=${OPENAI_API_KEY}
+RUN if [ -n "$OPENAI_API_KEY" ]; then \
+      python ../scripts/build-knowledge-base.py; \
+    else \
+      python ../scripts/build-knowledge-base.py --embedder hash; \
+    fi
+
+COPY --from=frontend-build /app/dist /usr/share/nginx/html
+COPY deploy/railway/nginx.combined.conf.template /etc/nginx/kairos.conf.template
+COPY deploy/railway/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh \
+    && rm -f /etc/nginx/sites-enabled/default
+
+ENTRYPOINT ["/entrypoint.sh"]

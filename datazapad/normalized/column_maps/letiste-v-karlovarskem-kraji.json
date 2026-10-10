@@ -1,0 +1,166 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "provozovatel": {
+    "extra_key": "provozovatel",
+    "canonical": null
+  },
+  "identifikační_číslo": {
+    "extra_key": "identifikační_číslo",
+    "canonical": "ico"
+  },
+  "právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "kód_adresy": {
+    "extra_key": "kód_adresy",
+    "canonical": "kod_adresy"
+  },
+  "id_datové_schránky": {
+    "extra_key": "id_datové_schránky",
+    "canonical": "datovka"
+  },
+  "webové_stránky": {
+    "extra_key": "webové_stránky",
+    "canonical": null
+  },
+  "telefonní_kontakt": {
+    "extra_key": "telefonní_kontakt",
+    "canonical": "phone"
+  },
+  "kontaktní_email": {
+    "extra_key": "kontaktní_email",
+    "canonical": "email"
+  },
+  "poznámka": {
+    "extra_key": "poznámka",
+    "canonical": null
+  },
+  "druh_letiště": {
+    "extra_key": "druh_letiště",
+    "canonical": null
+  },
+  "mezinárodní_letiště": {
+    "extra_key": "mezinárodní_letiště",
+    "canonical": null
+  },
+  "vnitrostátní_letiště": {
+    "extra_key": "vnitrostátní_letiště",
+    "canonical": null
+  },
+  "veřejné_letiště": {
+    "extra_key": "veřejné_letiště",
+    "canonical": null
+  },
+  "neveřejné_letiště": {
+    "extra_key": "neveřejné_letiště",
+    "canonical": null
+  },
+  "IATA_kód_letiště": {
+    "extra_key": "iata_kód_letiště",
+    "canonical": null
+  },
+  "ICAO_kód_letiště": {
+    "extra_key": "icao_kód_letiště",
+    "canonical": null
+  },
+  "místo_obsluhované_dopravním_uzlem": {
+    "extra_key": "místo_obsluhované_dopravním_uzlem",
+    "canonical": null
+  },
+  "datum_otevření": {
+    "extra_key": "datum_otevření",
+    "canonical": null
+  },
+  "nadmořská_výška_v_metrech": {
+    "extra_key": "nadmořská_výška_v_metrech",
+    "canonical": null
+  },
+  "dráha": {
+    "extra_key": "dráha",
+    "canonical": null
+  },
+  "ranvej": {
+    "extra_key": "ranvej",
+    "canonical": null
+  },
+  "frenkvence": {
+    "extra_key": "frenkvence",
+    "canonical": null
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "název_ulice": {
+    "extra_key": "název_ulice",
+    "canonical": "ulice"
+  },
+  "číslo_domovní": {
+    "extra_key": "číslo_domovní",
+    "canonical": "cislo_domovni"
+  },
+  "typ_čísla_domovního": {
+    "extra_key": "typ_čísla_domovního",
+    "canonical": null
+  },
+  "poštovní_směrovací_číslo": {
+    "extra_key": "poštovní_směrovací_číslo",
+    "canonical": "psc"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

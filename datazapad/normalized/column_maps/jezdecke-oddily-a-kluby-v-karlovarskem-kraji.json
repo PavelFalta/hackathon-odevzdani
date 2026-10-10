@@ -1,0 +1,114 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "adresa_místa": {
+    "extra_key": "adresa_místa",
+    "canonical": null
+  },
+  "popis": {
+    "extra_key": "popis",
+    "canonical": null
+  },
+  "název_provozovatele": {
+    "extra_key": "název_provozovatele",
+    "canonical": null
+  },
+  "identifikační_číslo_organizace": {
+    "extra_key": "identifikační_číslo_organizace",
+    "canonical": null
+  },
+  "právní_forma": {
+    "extra_key": "právní_forma",
+    "canonical": "pravni_forma"
+  },
+  "sídlo": {
+    "extra_key": "sídlo",
+    "canonical": "sidlo"
+  },
+  "webová_stránka": {
+    "extra_key": "webová_stránka",
+    "canonical": "web"
+  },
+  "kontaktní_email": {
+    "extra_key": "kontaktní_email",
+    "canonical": "email"
+  },
+  "telefonní_kontakt": {
+    "extra_key": "telefonní_kontakt",
+    "canonical": "phone"
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "název_ulice": {
+    "extra_key": "název_ulice",
+    "canonical": "ulice"
+  },
+  "číslo_domovní": {
+    "extra_key": "číslo_domovní",
+    "canonical": "cislo_domovni"
+  },
+  "typ_čísla_domovního": {
+    "extra_key": "typ_čísla_domovního",
+    "canonical": null
+  },
+  "číslo_orientační": {
+    "extra_key": "číslo_orientační",
+    "canonical": "cislo_orientacni"
+  },
+  "poštovní_směrovací_číslo": {
+    "extra_key": "poštovní_směrovací_číslo",
+    "canonical": "psc"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

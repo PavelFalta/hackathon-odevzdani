@@ -1,0 +1,66 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Shape": {
+    "extra_key": "shape",
+    "canonical": null
+  },
+  "ID": {
+    "extra_key": "id",
+    "canonical": null
+  },
+  "KOD_LAU1": {
+    "extra_key": "kod_lau1",
+    "canonical": null
+  },
+  "KOD_ORP": {
+    "extra_key": "kod_orp",
+    "canonical": null
+  },
+  "KOD_OPU": {
+    "extra_key": "kod_opu",
+    "canonical": null
+  },
+  "NAZEV_ORP": {
+    "extra_key": "nazev_orp",
+    "canonical": null
+  },
+  "NAZEV_LAU2": {
+    "extra_key": "nazev_lau2",
+    "canonical": null
+  },
+  "KRAJ": {
+    "extra_key": "kraj",
+    "canonical": null
+  },
+  "MAS": {
+    "extra_key": "mas",
+    "canonical": null
+  },
+  "WKT_JTSK": {
+    "extra_key": "wkt_jtsk",
+    "canonical": null
+  },
+  "Shape_Area_1": {
+    "extra_key": "shape_area_1",
+    "canonical": null
+  },
+  "Shape_Length_1": {
+    "extra_key": "shape_length_1",
+    "canonical": null
+  },
+  "Shape_Length": {
+    "extra_key": "shape_length",
+    "canonical": null
+  },
+  "Shape_Area": {
+    "extra_key": "shape_area",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

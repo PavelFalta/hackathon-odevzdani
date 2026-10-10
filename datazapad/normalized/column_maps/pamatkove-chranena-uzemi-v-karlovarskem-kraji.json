@@ -1,0 +1,86 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "Název": {
+    "extra_key": "název",
+    "canonical": "name"
+  },
+  "Katastrální_území": {
+    "extra_key": "katastrální_území",
+    "canonical": null
+  },
+  "Typ_památkového_území": {
+    "extra_key": "typ_památkového_území",
+    "canonical": null
+  },
+  "Památková_rezervace": {
+    "extra_key": "památková_rezervace",
+    "canonical": null
+  },
+  "Památková_zóna": {
+    "extra_key": "památková_zóna",
+    "canonical": null
+  },
+  "Popis": {
+    "extra_key": "popis",
+    "canonical": null
+  },
+  "Název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "Kód_vyššího_územně_samosprávného_celku_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku_dle_číselníku_čsú",
+    "canonical": "vusc_kod"
+  },
+  "Název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "Kód_okresu_dle_číselníku_ČSÚ": {
+    "extra_key": "kód_okresu_dle_číselníku_čsú",
+    "canonical": null
+  },
+  "Název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "Kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "Název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "Kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "Zeměpisná_délka_v_souřadnicovém_systému_WGS84": {
+    "extra_key": "zeměpisná_délka_v_souřadnicovém_systému_wgs84",
+    "canonical": "lon"
+  },
+  "Zeměpisná_šířka_v_souřadnicovém_systému_WGS84": {
+    "extra_key": "zeměpisná_šířka_v_souřadnicovém_systému_wgs84",
+    "canonical": "lat"
+  },
+  "Zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

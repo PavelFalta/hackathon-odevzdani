@@ -1,0 +1,142 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "název_dokumentu": {
+    "extra_key": "název_dokumentu",
+    "canonical": null
+  },
+  "druh_dokumentu": {
+    "extra_key": "druh_dokumentu",
+    "canonical": null
+  },
+  "výchozí_legislativa": {
+    "extra_key": "výchozí_legislativa",
+    "canonical": null
+  },
+  "rok_zahájení_platnosti": {
+    "extra_key": "rok_zahájení_platnosti",
+    "canonical": null
+  },
+  "rok_ukončení_platnosti": {
+    "extra_key": "rok_ukončení_platnosti",
+    "canonical": null
+  },
+  "oblast_působnosti": {
+    "extra_key": "oblast_působnosti",
+    "canonical": null
+  },
+  "regionální_rozvoj_VaVaI": {
+    "extra_key": "regionální_rozvoj_vavai",
+    "canonical": null
+  },
+  "vzdělávání_sport": {
+    "extra_key": "vzdělávání_sport",
+    "canonical": null
+  },
+  "sociální_oblast": {
+    "extra_key": "sociální_oblast",
+    "canonical": null
+  },
+  "zdravotnictví": {
+    "extra_key": "zdravotnictví",
+    "canonical": null
+  },
+  "doprava_technická_infrastruktura": {
+    "extra_key": "doprava_technická_infrastruktura",
+    "canonical": null
+  },
+  "kultura_cestovní_ruch": {
+    "extra_key": "kultura_cestovní_ruch",
+    "canonical": null
+  },
+  "životní_prostředí_zemědělství": {
+    "extra_key": "životní_prostředí_zemědělství",
+    "canonical": null
+  },
+  "územní_plánování": {
+    "extra_key": "územní_plánování",
+    "canonical": null
+  },
+  "ostatní": {
+    "extra_key": "ostatní",
+    "canonical": null
+  },
+  "webová_stránka_databáze_strategií_čr": {
+    "extra_key": "webová_stránka_databáze_strategií_čr",
+    "canonical": null
+  },
+  "webová_stránka_karlovarský_kraj": {
+    "extra_key": "webová_stránka_karlovarský_kraj",
+    "canonical": null
+  },
+  "název_vyššího_územně_samosprávného_celku": {
+    "extra_key": "název_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_nazev"
+  },
+  "kód_vyššího_územně_samosprávného_celku": {
+    "extra_key": "kód_vyššího_územně_samosprávného_celku",
+    "canonical": "vusc_kod"
+  },
+  "název_okresu": {
+    "extra_key": "název_okresu",
+    "canonical": "okres_nazev"
+  },
+  "kód_okresu": {
+    "extra_key": "kód_okresu",
+    "canonical": "okres_kod"
+  },
+  "název_obce_s_rozšířenou_působností": {
+    "extra_key": "název_obce_s_rozšířenou_působností",
+    "canonical": "orp_nazev"
+  },
+  "kód_obce_s_rozšířenou_působností": {
+    "extra_key": "kód_obce_s_rozšířenou_působností",
+    "canonical": "orp_kod"
+  },
+  "název_obce": {
+    "extra_key": "název_obce",
+    "canonical": "obec_nazev"
+  },
+  "kód_obce": {
+    "extra_key": "kód_obce",
+    "canonical": "obec_kod"
+  },
+  "název_ulice": {
+    "extra_key": "název_ulice",
+    "canonical": "ulice"
+  },
+  "číslo_domovní": {
+    "extra_key": "číslo_domovní",
+    "canonical": "cislo_domovni"
+  },
+  "typ_čísla_domovního": {
+    "extra_key": "typ_čísla_domovního",
+    "canonical": null
+  },
+  "číslo_orientační": {
+    "extra_key": "číslo_orientační",
+    "canonical": "cislo_orientacni"
+  },
+  "poštovní_směrovací_číslo": {
+    "extra_key": "poštovní_směrovací_číslo",
+    "canonical": "psc"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zápis_vektorové_geometrie": {
+    "extra_key": "zápis_vektorové_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

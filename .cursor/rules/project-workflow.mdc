@@ -1,0 +1,23 @@
+---
+description: Run checks and file-size limits before finishing work
+alwaysApply: true
+---
+
+# Workflow
+
+Before marking a task complete:
+
+1. `docker compose build` from repo root — **this is the only automated test run** we use to verify the tree (frontend `tsc` + Vite, backend image).
+2. `npm run check:lines` — fix or split any production file over the **200**-line cap.
+
+Do **not** run `npm run check` / Vitest / pytest as part of routine agent finish unless the user explicitly asks. Still add or update unit tests in code when behavior changes (they are not run every turn).
+
+If you changed Docker, nginx, or auth and the user wants a live check: `docker compose up --build -d` then `npm run test:smoke`.
+
+When adding or changing behavior:
+
+- Add or update tests in the same change when practical.
+- After each feature slice, add at least one regression test if coverage is thin.
+- When touching stable code without tests, add a minimal test before or as part of the change.
+
+Keep production files **~120 lines**; never exceed **200** without splitting first.

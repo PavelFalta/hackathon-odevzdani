@@ -1,0 +1,797 @@
+{
+  "datasets": [
+    {
+      "slug": "sluzebny-policie-cr-v-karlovarskem-kraji",
+      "name": "Služebny Policie ČR v Karlovarském kraji",
+      "source_file": "Služebny Policie ČR v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 27,
+      "records_with_coordinates": 27,
+      "output": "sluzebny-policie-cr-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "zoo-a-zooparky-v-karlovarskem-kraji",
+      "name": "ZOO a zooparky v Karlovarském kraji",
+      "source_file": "ZOO a zooparky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 10,
+      "records_with_coordinates": 10,
+      "output": "zoo-a-zooparky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "startovaci-vouchery-v-karlovarskem-kraji-v-roce-2023",
+      "name": "Startovací vouchery v Karlovarském kraji v roce 2023",
+      "source_file": "Startovací vouchery v Karlovarském kraji v roce 2023.csv",
+      "geometry_type": "point",
+      "records": 36,
+      "records_with_coordinates": 36,
+      "output": "startovaci-vouchery-v-karlovarskem-kraji-v-roce-2023.jsonl"
+    },
+    {
+      "slug": "rozhledny-v-karlovarskem-kraji",
+      "name": "Rozhledny v Karlovarském kraji",
+      "source_file": "Rozhledny v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 33,
+      "records_with_coordinates": 33,
+      "output": "rozhledny-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "seznam-provozovatelu-skolicich-stredisek-v-karlovarskem-kraji",
+      "name": "Seznam provozovatelů školicích středisek v Karlovarském kraji",
+      "source_file": "Seznam provozovatelů školicích středisek v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 42,
+      "records_with_coordinates": 40,
+      "output": "seznam-provozovatelu-skolicich-stredisek-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "prirodni-pozoruhodnosti-v-karlovarskem-kraji",
+      "name": "Přírodní pozoruhodnosti v Karlovarském kraji",
+      "source_file": "Přírodní pozoruhodnosti v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 16,
+      "records_with_coordinates": 16,
+      "output": "prirodni-pozoruhodnosti-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "pivovarnictvi-v-karlovarskem-kraji",
+      "name": "Pivovarnictví v Karlovarském kraji",
+      "source_file": "Pivovarnictví v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 14,
+      "records_with_coordinates": 14,
+      "output": "pivovarnictvi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "nabozenske-pamatky-v-karlovarskem-kraji",
+      "name": "Náboženské památky v Karlovarském kraji",
+      "source_file": "Náboženské památky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 27,
+      "records_with_coordinates": 27,
+      "output": "nabozenske-pamatky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "mikroregiony-v-karlovarskem-kraji",
+      "name": "Mikroregiony v Karlovarském kraji",
+      "source_file": "Mikroregiony v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 26,
+      "records_with_coordinates": 26,
+      "output": "mikroregiony-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "lazenska-mista-v-karlovarskem-kraji",
+      "name": "Lázeňská místa v Karlovarském kraji",
+      "source_file": "Lázeňská místa v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 5,
+      "records_with_coordinates": 5,
+      "output": "lazenska-mista-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "evidovane-knihovny-v-karlovarskem-kraji",
+      "name": "Evidované knihovny v Karlovarském kraji",
+      "source_file": "Evidované knihovny v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 134,
+      "records_with_coordinates": 134,
+      "output": "evidovane-knihovny-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "autobusove-zastavky-v-karlovarskem-kraji",
+      "name": "Autobusové zastávky v Karlovarském kraji",
+      "source_file": "Autobusové zastávky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 1840,
+      "records_with_coordinates": 1840,
+      "output": "autobusove-zastavky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "seznam-obci-karlovarskeho-kraje",
+      "name": "Seznam obcí Karlovarského kraje",
+      "source_file": "Seznam obcí Karlovarského kraje.csv",
+      "geometry_type": "polygon",
+      "records": 134,
+      "records_with_coordinates": 134,
+      "output": "seznam-obci-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "skolska-poradenska-zarizeni-v-karlovarskem-kraji",
+      "name": "Školská poradenská zařízení v Karlovarském kraji",
+      "source_file": "Školská poradenská zařízení v Karlovarském kraji.csv",
+      "geometry_type": "multipoint",
+      "records": 10,
+      "records_with_coordinates": 0,
+      "output": "skolska-poradenska-zarizeni-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "koupaci-mista-s-kontrolou-kvality-vody-v-roce-2026-v-karlovarskem-kraji",
+      "name": "Koupací místa s kontrolou kvality vody v roce 2026 v Karlovarském kraji",
+      "source_file": "Koupací místa s kontrolou kvality vody v roce 2026 v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 26,
+      "records_with_coordinates": 26,
+      "output": "koupaci-mista-s-kontrolou-kvality-vody-v-roce-2026-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "startovaci-vouchery-v-karlovarskem-kraji-v-roce-2024",
+      "name": "Startovací vouchery v Karlovarském kraji v roce 2024",
+      "source_file": "Startovací vouchery v Karlovarském kraji v roce 2024.csv",
+      "geometry_type": "point",
+      "records": 69,
+      "records_with_coordinates": 69,
+      "output": "startovaci-vouchery-v-karlovarskem-kraji-v-roce-2024.jsonl"
+    },
+    {
+      "slug": "kreativni-vouchery-2020-2022",
+      "name": "Kreativní vouchery 2020 - 2022",
+      "source_file": "Kreativní vouchery 2020 - 2022.csv",
+      "geometry_type": "point",
+      "records": 119,
+      "records_with_coordinates": 119,
+      "output": "kreativni-vouchery-2020-2022.jsonl"
+    },
+    {
+      "slug": "letiste-v-karlovarskem-kraji",
+      "name": "Letiště v Karlovarském kraji",
+      "source_file": "Letiště v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 6,
+      "records_with_coordinates": 6,
+      "output": "letiste-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "obecni-zivnostenske-urady-karlovarskeho-kraje-dle-uzemni-prislusnosti-obci",
+      "name": "Obecní živnostenské úřady Karlovarského kraje dle územní příslušnosti obcí",
+      "source_file": "Obecní živnostenské úřady Karlovarského kraje dle územní příslušnosti obcí.csv",
+      "geometry_type": "point",
+      "records": 134,
+      "records_with_coordinates": 134,
+      "output": "obecni-zivnostenske-urady-karlovarskeho-kraje-dle-uzemni-prislusnosti-obci.jsonl"
+    },
+    {
+      "slug": "archeologicke-pamatky-v-karlovarskem-kraji",
+      "name": "Archeologické památky v Karlovarském kraji",
+      "source_file": "Archeologické památky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 69,
+      "records_with_coordinates": 69,
+      "output": "archeologicke-pamatky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "divadla-v-karlovarskem-kraji",
+      "name": "Divadla v Karlovarském kraji",
+      "source_file": "Divadla v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 9,
+      "records_with_coordinates": 9,
+      "output": "divadla-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "seznam-strategickych-dokumentu-karlovarskeho-kraje",
+      "name": "Seznam strategických dokumentů Karlovarského kraje",
+      "source_file": "Seznam strategických dokumentů Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 59,
+      "records_with_coordinates": 59,
+      "output": "seznam-strategickych-dokumentu-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "zamer-poctu-prijimanych-uchazecu-strednich-skol-v-karlovarskem-kraji-pro-skolni-rok-2024-2025",
+      "name": "Záměr počtu přijímaných uchazečů středních škol v Karlovarském kraji pro školní rok 2024/2025",
+      "source_file": "Záměr počtu přijímaných uchazečů středních škol v Karlovarském kraji pro školní rok 2024_2025.csv",
+      "geometry_type": "point",
+      "records": 142,
+      "records_with_coordinates": 142,
+      "output": "zamer-poctu-prijimanych-uchazecu-strednich-skol-v-karlovarskem-kraji-pro-skolni-rok-2024-2025.jsonl"
+    },
+    {
+      "slug": "zamer-poctu-prijimanych-uchazecu-strednich-skol-v-karlovarskem-kraji-pro-skolni-rok-2026-2027",
+      "name": "Záměr počtu přijímaných uchazečů středních škol v Karlovarském kraji pro školní rok 2026/2027",
+      "source_file": "Záměr počtu přijímaných uchazečů středních škol v Karlovarském kraji pro školní rok 2026_2027.csv",
+      "geometry_type": "point",
+      "records": 159,
+      "records_with_coordinates": 159,
+      "output": "zamer-poctu-prijimanych-uchazecu-strednich-skol-v-karlovarskem-kraji-pro-skolni-rok-2026-2027.jsonl"
+    },
+    {
+      "slug": "solne-jeskyne-v-karlovarskem-kraji",
+      "name": "Solné jeskyně v Karlovarském kraji",
+      "source_file": "Solné jeskyně v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 13,
+      "records_with_coordinates": 13,
+      "output": "solne-jeskyne-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "seznam-vysokych-skol-pusobicich-v-karlovarskem-kraji",
+      "name": "Seznam vysokých škol působících v Karlovarském kraji",
+      "source_file": "Seznam vysokých škol působících v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 7,
+      "records_with_coordinates": 7,
+      "output": "seznam-vysokych-skol-pusobicich-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "pamatkove-chranena-uzemi-v-karlovarskem-kraji",
+      "name": "Památkově chráněná území v Karlovarském kraji",
+      "source_file": "Památkově chráněná území v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 29,
+      "records_with_coordinates": 29,
+      "output": "pamatkove-chranena-uzemi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "organy-a-organizace-statni-pamatkove-pece-v-karlovarskem-kraji",
+      "name": "Orgány a organizace státní památkové péče v Karlovarském kraji",
+      "source_file": "Orgány a organizace státní památkové péče v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 10,
+      "records_with_coordinates": 10,
+      "output": "organy-a-organizace-statni-pamatkove-pece-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "narodni-kulturni-pamatky-v-karlovarskem-kraji",
+      "name": "Národní kulturní památky v Karlovarském kraji",
+      "source_file": "Národní kulturní památky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 15,
+      "records_with_coordinates": 15,
+      "output": "narodni-kulturni-pamatky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "lekarska-a-lekarenska-pohotovostni-sluzba-v-karlovarskem-kraji",
+      "name": "Lékařská a lékárenská pohotovostní služba v Karlovarském kraji",
+      "source_file": "Lékařská a lékárenská pohotovostní služba v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 16,
+      "records_with_coordinates": 15,
+      "output": "lekarska-a-lekarenska-pohotovostni-sluzba-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "kina-a-kinosaly-v-karlovarskem-kraji",
+      "name": "Kina a kinosály v Karlovarském kraji",
+      "source_file": "Kina a kinosály v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 28,
+      "records_with_coordinates": 28,
+      "output": "kina-a-kinosaly-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "dobrovolne-svazky-obci-karlovarskeho-kraje",
+      "name": "Dobrovolné svazky obcí Karlovarského kraje",
+      "source_file": "Dobrovolné svazky obcí Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 15,
+      "records_with_coordinates": 15,
+      "output": "dobrovolne-svazky-obci-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "inovacni-vouchery-2020-2022",
+      "name": "Inovační vouchery 2020 - 2022",
+      "source_file": "Inovační vouchery 2020 - 2022.csv",
+      "geometry_type": "point",
+      "records": 145,
+      "records_with_coordinates": 145,
+      "output": "inovacni-vouchery-2020-2022.jsonl"
+    },
+    {
+      "slug": "historicke-mestske-soubory-v-karlovarskem-kraji",
+      "name": "Historické městské soubory v Karlovarském kraji",
+      "source_file": "Historické městské soubory v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 14,
+      "records_with_coordinates": 14,
+      "output": "historicke-mestske-soubory-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "matricni-urady-karlovarskeho-kraje",
+      "name": "Matriční úřady Karlovarského kraje",
+      "source_file": "Matriční úřady Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 44,
+      "records_with_coordinates": 44,
+      "output": "matricni-urady-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "golfova-hriste-v-karlovarskem-kraji",
+      "name": "Golfová hřiště v Karlovarském kraji",
+      "source_file": "Golfová hřiště v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 9,
+      "records_with_coordinates": 9,
+      "output": "golfova-hriste-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "jezdecke-oddily-a-kluby-v-karlovarskem-kraji",
+      "name": "Jezdecké oddíly a kluby v Karlovarském kraji",
+      "source_file": "Jezdecké oddíly a kluby v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 35,
+      "records_with_coordinates": 35,
+      "output": "jezdecke-oddily-a-kluby-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "pohrebiste-v-karlovarskem-kraji",
+      "name": "Pohřebiště v Karlovarském kraji",
+      "source_file": "Pohřebiště v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 106,
+      "records_with_coordinates": 106,
+      "output": "pohrebiste-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "pristupne-prameny-v-karlovarskem-kraji",
+      "name": "Přístupné prameny v Karlovarském kraji",
+      "source_file": "Přístupné prameny v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 129,
+      "records_with_coordinates": 129,
+      "output": "pristupne-prameny-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "nemocnice-v-karlovarskem-kraji",
+      "name": "Nemocnice v Karlovarském kraji",
+      "source_file": "Nemocnice v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 5,
+      "records_with_coordinates": 5,
+      "output": "nemocnice-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "sportovni-arealy-a-haly-v-karlovarskem-kraji",
+      "name": "Sportovní areály a haly v Karlovarském kraji",
+      "source_file": "Sportovní areály a haly v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 35,
+      "records_with_coordinates": 35,
+      "output": "sportovni-arealy-a-haly-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "zamer-poctu-prijimanych-uchazecu-strednich-skol-v-karlovarskem-kraji-pro-skolni-rok-2025-2026",
+      "name": "Záměr počtu přijímaných uchazečů středních škol v Karlovarském kraji pro školní rok 2025/2026",
+      "source_file": "Záměr počtu přijímaných uchazečů středních škol v Karlovarském kraji pro školní rok 2025_2026.csv",
+      "geometry_type": "point",
+      "records": 143,
+      "records_with_coordinates": 143,
+      "output": "zamer-poctu-prijimanych-uchazecu-strednich-skol-v-karlovarskem-kraji-pro-skolni-rok-2025-2026.jsonl"
+    },
+    {
+      "slug": "vojenske-a-pietni-pamatky-v-karlovarskem-kraji",
+      "name": "Vojenské a pietní památky v Karlovarském kraji",
+      "source_file": "Vojenské a pietní památky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 11,
+      "records_with_coordinates": 11,
+      "output": "vojenske-a-pietni-pamatky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "pamatky-unesco-v-karlovarskem-kraji",
+      "name": "Památky UNESCO v Karlovarském kraji",
+      "source_file": "Památky UNESCO v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 6,
+      "records_with_coordinates": 6,
+      "output": "pamatky-unesco-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "organizace-a-spolecnosti-zrizene-karlovarskym-krajem",
+      "name": "Organizace a společnosti zřízené Karlovarským krajem",
+      "source_file": "Organizace a společnosti zřízené Karlovarským krajem.csv",
+      "geometry_type": "point",
+      "records": 69,
+      "records_with_coordinates": 69,
+      "output": "organizace-a-spolecnosti-zrizene-karlovarskym-krajem.jsonl"
+    },
+    {
+      "slug": "muzea-v-prirode-a-skanzeny-v-karlovarskem-kraji",
+      "name": "Muzea v přírodě a skanzeny v Karlovarském kraji",
+      "source_file": "Muzea v přírodě a skanzeny v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 9,
+      "records_with_coordinates": 9,
+      "output": "muzea-v-prirode-a-skanzeny-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "lyzarske-vleky-a-lanovky-v-karlovarskem-kraji",
+      "name": "Lyžařské vleky a lanovky v Karlovarském kraji",
+      "source_file": "Lyžařské vleky a lanovky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 16,
+      "records_with_coordinates": 16,
+      "output": "lyzarske-vleky-a-lanovky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "obce-s-rozsirenou-pusobnosti-karlovarskeho-kraje",
+      "name": "Obce s rozšířenou působností Karlovarského kraje",
+      "source_file": "Obce s rozšířenou působností Karlovarského kraje.csv",
+      "geometry_type": "polygon",
+      "records": 7,
+      "records_with_coordinates": 7,
+      "output": "obce-s-rozsirenou-pusobnosti-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "mas-dle-prislusnosti-jednotlivych-obci-v-karlovarskem-kraji",
+      "name": "MAS dle příslušnosti jednotlivých obcí v Karlovarském kraji",
+      "source_file": "MAS dle příslušnosti jednotlivých obcí v Karlovarském kraji.csv",
+      "geometry_type": "polygon",
+      "records": 186,
+      "records_with_coordinates": 186,
+      "output": "mas-dle-prislusnosti-jednotlivych-obci-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "dobroty-karlovarskeho-kraje",
+      "name": "Dobroty Karlovarského kraje",
+      "source_file": "Dobroty Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 156,
+      "records_with_coordinates": 156,
+      "output": "dobroty-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "vyjezdove-zakladny-zdravotnicke-zachranne-sluzby-v-karlovarskem-kraji",
+      "name": "Výjezdové základny zdravotnické záchranné služby v Karlovarském kraji",
+      "source_file": "Výjezdové základny zdravotnické záchranné služby v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 13,
+      "records_with_coordinates": 13,
+      "output": "vyjezdove-zakladny-zdravotnicke-zachranne-sluzby-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "inovacni-infrastruktury-karlovarskeho-kraje",
+      "name": "Inovační infrastruktury Karlovarského kraje",
+      "source_file": "Inovační infrastruktury Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 25,
+      "records_with_coordinates": 25,
+      "output": "inovacni-infrastruktury-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "koupaci-mista-s-kontrolou-kvality-vody-v-karlovarskem-kraji-do-roku-2025",
+      "name": "Koupací místa s kontrolou kvality vody v Karlovarském kraji do roku 2025",
+      "source_file": "Koupací místa s kontrolou kvality vody v Karlovarském kraji do roku 2025.csv",
+      "geometry_type": "point",
+      "records": 26,
+      "records_with_coordinates": 26,
+      "output": "koupaci-mista-s-kontrolou-kvality-vody-v-karlovarskem-kraji-do-roku-2025.jsonl"
+    },
+    {
+      "slug": "seznam-skol-a-skolskych-zarizeni-do-stupne-vos-v-karlovarskem-kraji",
+      "name": "Seznam škol a školských zařízení do stupně VOŠ v Karlovarském kraji",
+      "source_file": "Seznam škol a školských zařízení do stupně VOŠ v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 269,
+      "records_with_coordinates": 269,
+      "output": "seznam-skol-a-skolskych-zarizeni-do-stupne-vos-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "asistencni-vouchery-2020-2022-v-karlovarskem-kraji",
+      "name": "Asistenční vouchery 2020 - 2022 v Karlovarském kraji",
+      "source_file": "Asistenční vouchery 2020 - 2022 v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 18,
+      "records_with_coordinates": 18,
+      "output": "asistencni-vouchery-2020-2022-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "turisticka-informacni-centra-v-karlovarskem-kraji",
+      "name": "Turistická informační centra v Karlovarském kraji",
+      "source_file": "Turistická informační centra v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 33,
+      "records_with_coordinates": 33,
+      "output": "turisticka-informacni-centra-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "lanova-a-zabavni-centra-v-karlovarskem-kraji",
+      "name": "Lanová a zábavní centra v Karlovarském kraji",
+      "source_file": "Lanová a zábavní centra v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 22,
+      "records_with_coordinates": 22,
+      "output": "lanova-a-zabavni-centra-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "historicke-vesnicke-soubory-v-karlovarskem-kraji",
+      "name": "Historické vesnické soubory v Karlovarském kraji",
+      "source_file": "Historické vesnické soubory v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 10,
+      "records_with_coordinates": 10,
+      "output": "historicke-vesnicke-soubory-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "agroturisticke-destinace-v-karlovarskem-kraji",
+      "name": "Agroturistické destinace v Karlovarském kraji",
+      "source_file": "Agroturistické destinace v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 25,
+      "records_with_coordinates": 25,
+      "output": "agroturisticke-destinace-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "hrady-a-jejich-zriceniny-v-karlovarskem-kraji",
+      "name": "Hrady a jejich zříceniny v Karlovarském kraji",
+      "source_file": "Hrady a jejich zříceniny v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 29,
+      "records_with_coordinates": 29,
+      "output": "hrady-a-jejich-zriceniny-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "stavebni-urady-v-karlovarskem-kraji-dle-okresu",
+      "name": "Stavební úřady v Karlovarském kraji dle okresů",
+      "source_file": "Stavební úřady v Karlovarském kraji dle okresů.csv",
+      "geometry_type": "point",
+      "records": 24,
+      "records_with_coordinates": 24,
+      "output": "stavebni-urady-v-karlovarskem-kraji-dle-okresu.jsonl"
+    },
+    {
+      "slug": "pohrebni-sluzby-v-karlovarskem-kraji",
+      "name": "Pohřební služby v Karlovarském kraji",
+      "source_file": "Pohřební služby v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 19,
+      "records_with_coordinates": 19,
+      "output": "pohrebni-sluzby-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "aquaparky-koupaliste-a-bazeny-v-karlovarskem-kraji",
+      "name": "Aquaparky, koupaliště a bazény v Karlovarském kraji",
+      "source_file": "Aquaparky, koupaliště a bazény v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 25,
+      "records_with_coordinates": 25,
+      "output": "aquaparky-koupaliste-a-bazeny-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "poskytovatele-socialnich-sluzeb-v-karlovarskem-kraji",
+      "name": "Poskytovatelé sociálních služeb v Karlovarském kraji",
+      "source_file": "Poskytovatelé sociálních služeb v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 220,
+      "records_with_coordinates": 220,
+      "output": "poskytovatele-socialnich-sluzeb-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "poskytovatele-pobytovych-socialnich-sluzeb-pro-seniory-v-karlovarskem-kraji",
+      "name": "Poskytovatelé pobytových sociálních služeb pro seniory v Karlovarském kraji",
+      "source_file": "Poskytovatelé pobytových sociálních služeb pro seniory v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 44,
+      "records_with_coordinates": 44,
+      "output": "poskytovatele-pobytovych-socialnich-sluzeb-pro-seniory-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "zvlaste-chranena-uzemi-v-karlovarskem-kraji",
+      "name": "Zvláště chráněná území v Karlovarském kraji",
+      "source_file": "Zvláště chráněná území v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 97,
+      "records_with_coordinates": 97,
+      "output": "zvlaste-chranena-uzemi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "zamky-v-karlovarskem-kraji",
+      "name": "Zámky v Karlovarském kraji",
+      "source_file": "Zámky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 50,
+      "records_with_coordinates": 50,
+      "output": "zamky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "ukoncene-projekty-karlovarskeho-kraje-v-oblasti-rozvoje-regionu-a-uzemniho-planovani",
+      "name": "Ukončené projekty Karlovarského kraje v oblasti rozvoje regionu a územního plánování",
+      "source_file": "Ukončené projekty Karlovarského kraje v oblasti rozvoje regionu a územního plánování.csv",
+      "geometry_type": "point",
+      "records": 17,
+      "records_with_coordinates": 17,
+      "output": "ukoncene-projekty-karlovarskeho-kraje-v-oblasti-rozvoje-regionu-a-uzemniho-planovani.jsonl"
+    },
+    {
+      "slug": "prumyslove-zony-a-parky-v-karlovarskem-kraji",
+      "name": "Průmyslové zóny a parky v Karlovarském kraji",
+      "source_file": "Průmyslové zóny a parky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 19,
+      "records_with_coordinates": 19,
+      "output": "prumyslove-zony-a-parky-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "aktualni-projekty-karlovarskeho-kraje-v-oblasti-rozvoje-regionu-a-uzemniho-planovani",
+      "name": "Aktuální projekty Karlovarského kraje v oblasti rozvoje regionu a územního plánování",
+      "source_file": "Aktuální projekty Karlovarského kraje v oblasti rozvoje regionu a územního plánování.csv",
+      "geometry_type": "point",
+      "records": 6,
+      "records_with_coordinates": 6,
+      "output": "aktualni-projekty-karlovarskeho-kraje-v-oblasti-rozvoje-regionu-a-uzemniho-planovani.jsonl"
+    },
+    {
+      "slug": "maloplosna-zvlaste-chranena-uzemi-v-karlovarskem-kraji",
+      "name": "Maloplošná zvláště chráněná území v Karlovarském kraji",
+      "source_file": "Maloplošná zvláště chráněná území v Karlovarském kraji.csv",
+      "geometry_type": "polygon",
+      "records": 96,
+      "records_with_coordinates": 96,
+      "output": "maloplosna-zvlaste-chranena-uzemi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "svazky-obci-dle-prislusnosti-jednotlivych-obci-v-karlovarskem-kraji",
+      "name": "Svazky obcí dle příslušnosti jednotlivých obcí v Karlovarském kraji",
+      "source_file": "Svazky obcí dle příslušnosti jednotlivých obcí v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 172,
+      "records_with_coordinates": 172,
+      "output": "svazky-obci-dle-prislusnosti-jednotlivych-obci-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "zarizeni-skolniho-stravovani-v-karlovarskem-kraji",
+      "name": "Zařízení školního stravování v Karlovarském kraji",
+      "source_file": "Zařízení školního stravování v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 193,
+      "records_with_coordinates": 193,
+      "output": "zarizeni-skolniho-stravovani-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "odborne-organizace-v-cestovnim-ruchu-a-lazenstvi-v-karlovarskem-kraji",
+      "name": "Odborné organizace v cestovním ruchu a lázeňství v Karlovarském kraji",
+      "source_file": "Odborné organizace v cestovním ruchu a lázeňství v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 12,
+      "records_with_coordinates": 12,
+      "output": "odborne-organizace-v-cestovnim-ruchu-a-lazenstvi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "mistni-organizace-ceskeho-rybarskeho-svazu-v-karlovarskem-kraji",
+      "name": "Místní organizace Českého rybářského svazu v Karlovarském kraji",
+      "source_file": "Místní organizace Českého rybářského svazu v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 13,
+      "records_with_coordinates": 13,
+      "output": "mistni-organizace-ceskeho-rybarskeho-svazu-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "obecni-zivnostenske-urady-v-karlovarskem-kraji",
+      "name": "Obecní živnostenské úřady v Karlovarském kraji",
+      "source_file": "Obecní živnostenské úřady v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 7,
+      "records_with_coordinates": 7,
+      "output": "obecni-zivnostenske-urady-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "jezdectvi-v-karlovarskem-kraji",
+      "name": "Jezdectví v Karlovarském kraji",
+      "source_file": "Jezdectví v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 62,
+      "records_with_coordinates": 60,
+      "output": "jezdectvi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "botanicke-zahrady-a-arboreta-v-karlovarskem-kraji",
+      "name": "Botanické zahrady a arboreta v Karlovarském kraji",
+      "source_file": "Botanické zahrady a arboreta v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 4,
+      "records_with_coordinates": 4,
+      "output": "botanicke-zahrady-a-arboreta-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "stavebni-urady-v-karlovarskem-kraji-dle-katastralnich-uzemi",
+      "name": "Stavební úřady v Karlovarském kraji dle katastrálních území",
+      "source_file": "Stavební úřady v Karlovarském kraji dle katastrálních území.csv",
+      "geometry_type": "point",
+      "records": 571,
+      "records_with_coordinates": 571,
+      "output": "stavebni-urady-v-karlovarskem-kraji-dle-katastralnich-uzemi.jsonl"
+    },
+    {
+      "slug": "osoby-poverene-k-vykonu-socialne-pravni-ochrany-pusobici-v-karlovarskem-kraji",
+      "name": "Osoby pověřené k výkonu sociálně-právní ochrany působící v Karlovarském kraji",
+      "source_file": "Osoby pověřené k výkonu sociálně-právní ochrany působící v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 18,
+      "records_with_coordinates": 18,
+      "output": "osoby-poverene-k-vykonu-socialne-pravni-ochrany-pusobici-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "prehled-majetkovych-pasportu-budov-karlovarskeho-kraje",
+      "name": "Přehled majetkových pasportů budov Karlovarského kraje",
+      "source_file": "Přehled majetkových pasportů budov Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 193,
+      "records_with_coordinates": 193,
+      "output": "prehled-majetkovych-pasportu-budov-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "kulturni-domy-a-centra-v-karlovarskem-kraji",
+      "name": "Kulturní domy a centra v Karlovarském kraji",
+      "source_file": "Kulturní domy a centra v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 19,
+      "records_with_coordinates": 19,
+      "output": "kulturni-domy-a-centra-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "galerie-kreativcu-karlovarskeho-kraje",
+      "name": "Galerie kreativců Karlovarského kraje",
+      "source_file": "Galerie kreativců Karlovarského kraje.csv",
+      "geometry_type": "point",
+      "records": 197,
+      "records_with_coordinates": 96,
+      "output": "galerie-kreativcu-karlovarskeho-kraje.jsonl"
+    },
+    {
+      "slug": "zajmova-sdruzeni-pravnickych-osob-s-obcemi-v-karlovarskem-kraji",
+      "name": "Zájmová sdružení právnických osob (s obcemi) v Karlovarském kraji",
+      "source_file": "Zájmová sdružení právnických osob (s obcemi) v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 6,
+      "records_with_coordinates": 6,
+      "output": "zajmova-sdruzeni-pravnickych-osob-s-obcemi-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "seznam-mas-v-karlovarskem-kraji",
+      "name": "Seznam MAS v Karlovarském kraji",
+      "source_file": "Seznam MAS v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 5,
+      "records_with_coordinates": 5,
+      "output": "seznam-mas-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "muzea-a-galerie-v-karlovarskem-kraji",
+      "name": "Muzea a galerie v Karlovarském kraji",
+      "source_file": "Muzea a galerie v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 62,
+      "records_with_coordinates": 62,
+      "output": "muzea-a-galerie-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "jine-atraktivity-v-karlovarskem-kraji",
+      "name": "Jiné atraktivity v Karlovarském kraji",
+      "source_file": "Jiné atraktivity v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 14,
+      "records_with_coordinates": 14,
+      "output": "jine-atraktivity-v-karlovarskem-kraji.jsonl"
+    },
+    {
+      "slug": "hornicke-a-technicke-pamatky-v-karlovarskem-kraji",
+      "name": "Hornické a technické památky v Karlovarském kraji",
+      "source_file": "Hornické a technické památky v Karlovarském kraji.csv",
+      "geometry_type": "point",
+      "records": 22,
+      "records_with_coordinates": 22,
+      "output": "hornicke-a-technicke-pamatky-v-karlovarskem-kraji.jsonl"
+    }
+  ],
+  "total_records": 7061
+}

@@ -1,0 +1,138 @@
+{
+  "OBJECTID": {
+    "extra_key": "objectid",
+    "canonical": "source_object_id"
+  },
+  "nazev_skoly": {
+    "extra_key": "nazev_skoly",
+    "canonical": null
+  },
+  "IZO_reditelstvi": {
+    "extra_key": "izo_reditelstvi",
+    "canonical": null
+  },
+  "ico": {
+    "extra_key": "ico",
+    "canonical": "ico"
+  },
+  "pravni_forma": {
+    "extra_key": "pravni_forma",
+    "canonical": null
+  },
+  "obor_kod": {
+    "extra_key": "obor_kod",
+    "canonical": null
+  },
+  "obor_nazev": {
+    "extra_key": "obor_nazev",
+    "canonical": null
+  },
+  "delka_vzdelavani": {
+    "extra_key": "delka_vzdelavani",
+    "canonical": null
+  },
+  "druh_vzdelavani": {
+    "extra_key": "druh_vzdelavani",
+    "canonical": null
+  },
+  "forma_vzdelavani": {
+    "extra_key": "forma_vzdelavani",
+    "canonical": null
+  },
+  "skolni_rok": {
+    "extra_key": "skolni_rok",
+    "canonical": null
+  },
+  "zamer_poctu_prijimanych": {
+    "extra_key": "zamer_poctu_prijimanych",
+    "canonical": null
+  },
+  "vlastnictvi": {
+    "extra_key": "vlastnictvi",
+    "canonical": null
+  },
+  "specifikace_vlastnictvi": {
+    "extra_key": "specifikace_vlastnictvi",
+    "canonical": null
+  },
+  "telefon": {
+    "extra_key": "telefon",
+    "canonical": "phone"
+  },
+  "email_skola": {
+    "extra_key": "email_skola",
+    "canonical": null
+  },
+  "url": {
+    "extra_key": "url",
+    "canonical": "web"
+  },
+  "nazev_vusc": {
+    "extra_key": "nazev_vusc",
+    "canonical": null
+  },
+  "kod_vusc": {
+    "extra_key": "kod_vusc",
+    "canonical": null
+  },
+  "nazev_okresu": {
+    "extra_key": "nazev_okresu",
+    "canonical": null
+  },
+  "kod_okresu": {
+    "extra_key": "kod_okresu",
+    "canonical": null
+  },
+  "nazev_orp": {
+    "extra_key": "nazev_orp",
+    "canonical": null
+  },
+  "kod_orp": {
+    "extra_key": "kod_orp",
+    "canonical": null
+  },
+  "nazev_obce": {
+    "extra_key": "nazev_obce",
+    "canonical": null
+  },
+  "kod_obce": {
+    "extra_key": "kod_obce",
+    "canonical": "obec_kod"
+  },
+  "nazev_ulice": {
+    "extra_key": "nazev_ulice",
+    "canonical": null
+  },
+  "cislo_domovni": {
+    "extra_key": "cislo_domovni",
+    "canonical": null
+  },
+  "typ_cisla_domovniho": {
+    "extra_key": "typ_cisla_domovniho",
+    "canonical": null
+  },
+  "cislo_orientacni": {
+    "extra_key": "cislo_orientacni",
+    "canonical": null
+  },
+  "psc": {
+    "extra_key": "psc",
+    "canonical": "psc"
+  },
+  "x": {
+    "extra_key": "x",
+    "canonical": "lon"
+  },
+  "y": {
+    "extra_key": "y",
+    "canonical": "lat"
+  },
+  "zapis_vektorove_geometrie": {
+    "extra_key": "zapis_vektorove_geometrie",
+    "canonical": null
+  },
+  "geometry_wkt": {
+    "extra_key": "geometry_wkt",
+    "canonical": "geometry_wkt"
+  }
+}

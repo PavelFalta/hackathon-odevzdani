@@ -1,0 +1,15 @@
+---
+description: Test expectations for frontend and backend
+globs: "{frontend/src/**/*.test.{ts,tsx},backend/tests/**/*.py}"
+alwaysApply: false
+---
+
+# Tests
+
+- Name tests after behavior (`test_health_ok`, `renders map shell`).
+- One logical assertion group per test; mock HTTP at the API client boundary in frontend.
+- Backend: use `TestClient` against `app.main:app`; no live network.
+
+When you fix a bug or add an endpoint/UI flow, add a test in the same PR unless truly impossible.
+
+Do not run `npm run test` or `npm run check` before finishing unless the user asks. Routine verification is `docker compose build` (see `project-workflow.mdc`).

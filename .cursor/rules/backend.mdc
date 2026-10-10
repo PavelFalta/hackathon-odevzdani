@@ -1,0 +1,15 @@
+---
+description: FastAPI backend conventions
+globs: backend/**/*.py
+alwaysApply: false
+---
+
+# Backend
+
+- Routers in `app/api/`; business logic in `app/services/` when non-trivial.
+- Pydantic models for request/response; no raw dicts at API boundaries.
+- Settings via `app.config.settings` only.
+
+Line budget: same as frontend (~120 target, 200 max). Use `ruff format` and `ruff check`.
+
+After edits: `cd backend && npm run check` (or `ruff` + `pytest` directly).
